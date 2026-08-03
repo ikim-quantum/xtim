@@ -1,0 +1,23 @@
+# Source-distribution completeness: a `pip install` from the sdist tarball must
+# carry every C++ source/header the extension compiles (the package wheel ships
+# only xtim/*.py + the compiled _xtim, so these are build inputs, not runtime).
+graft cpp/src
+graft cpp/include
+include cpp/bindings/xtim_py.cpp
+include cpp/apps/ref_compile.cpp
+include cpp/apps/protocol_reference.cpp
+
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CITATION.cff
+include smoke_test.py
+recursive-include tests *.py
+recursive-include docs *.md
+recursive-include benchmarks *.stim
+# Examples must include the runnable .py scripts and the .ipynb tutorial that the
+# docs tell users to run — not just the .stim circuits and the README.
+recursive-include examples *.stim *.md *.py *.ipynb
+
+global-exclude *.so
+global-exclude __pycache__/*
