@@ -1,0 +1,16 @@
+# Citation metadata for the xtim software release.
+# NOTE: this file cites the software itself. It will be updated to point at the
+# accompanying preprint (via `preferred-citation`) when that preprint appears;
+# until then, please cite the software release below. The method xtim implements
+# is described in Surti, Daguerre & Kim, arXiv:2512.23799.
+cff-version: 1.2.0
+message: "If you use xtim in your research, please cite it as below."
+type: software
+title: "xtim"
+authors:
+  - family-names: "Kim"
+    given-names: "Isaac H."
+version: "3.0.1"
+date-released: "2026-08-30"
+repository-code: "https://github.com/ikim-quantum/xtim"
+license: Apache-2.0
