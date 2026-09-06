@@ -1,0 +1,168 @@
+[build-system]
+requires = ["setuptools>=77", "wheel", "pybind11>=2.12"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xtim"
+# 0.5.0: first release since 0.3.1 — carries the engine-2 reference-compile speedup
+# (cache-invalidating; CHANGELOG [0.4.0], never tagged separately) AND the new
+# decoder-DEM-with-reject-region feature ([0.5.0]).
+# 0.5.1: docs/UX patch from user feedback (no engine/API change) — see CHANGELOG [0.5.1].
+# 0.5.2: five rounds of persona-driven UX hardening (docs + error-message polish,
+#   no engine/format change) — see CHANGELOG [0.5.2].
+# 0.5.3: engine correctness fix — classical feedback (CX/CY/CZ rec[-k] q) crossing a
+#   non-Clifford gate is now coherentized (was silently wrong / refused); + the
+#   [[8,3,2]] multi-magic example. See CHANGELOG [0.5.3].
+# 0.5.4: onboarding — xtim.load_example() + circuits bundled in the wheel (no clone),
+#   a Jupyter tutorial + [tutorial] extra, and sdist/manifest fixes. See CHANGELOG [0.5.4].
+# 0.5.5: engine-4 consolidation — multi-magic-on-code now compiles & caches a minimal
+#   reference (cube_ccz chi=8), self-invalidating cache key. See CHANGELOG [0.5.5].
+# 0.5.6: perf — the multi-magic reference compile no longer cliffs (O(chi^3)->O(chi^2)
+#   finders + bounded conditioning search); no API/format change. See CHANGELOG [0.5.6].
+# 0.5.7: references with 64<chi<=1024 now cache (verification cap unified to 1024);
+#   caching-only, sampling/API unchanged. See CHANGELOG [0.5.7].
+# 0.5.8: foundation consolidation (byte-exact internal cleanup) + perf wins
+#   (build_bare_state transversal-T, CHState overlap) + edge-case fixes. See [0.5.8].
+# 0.5.9: opt-in true-state fidelity in xtim.collect (Task.target_k -> fidelity/
+#   infidelity/infidelity_sem rows, a 1-F vs p curve); F>1 warning; per-circuit
+#   beta cache (~3x faster sweeps) + substitute_var perf. Backward-compatible. [0.5.9].
+# 0.5.10: docs/examples for the fidelity feature (examples/fidelity_curve.py, README
+#   shortcut, notebook target_k section). No code change vs 0.5.9. See [0.5.10].
+# 0.5.11: symmetric completeness warning (noiseless fidelity ceiling < 1) + a worked
+#   [[8,3,2]] transversal-CCZ example (full-support true fidelity). See [0.5.11].
+# 0.5.12: engine perf + cache — engine-6 direct-construction reference compile (54x on
+#   large distillation refs; multi-block 2^k not 8^k), .ref format v3, kRefChiMax
+#   1024->16384. No API/sampling-result change. See [0.5.12].
+# 0.6.0: engine-7 (C-4 parity-native) + BREAKING chi_max removal (the cap is gone; the
+#   propagation-class check is the sole rejection) + compile-cache (repeat sample() no
+#   longer recompiles) + lean sampling. New examples: cultivation_d5, distillation_15_1_3
+#   (a real post-selected 15-to-1, 1-F ~ 35p^3). See [0.6.0].
+# 0.7.0: internal affine-removal refactor — the sampler is now fully tableau/lean (the
+#   affine CanonicalStabSum is gone from the execution path). No API or .ref-format change.
+#   Memory-mode (R=0) same-seed sampling streams differ vs 0.6.0 (statistically identical,
+#   stim-validated); expectation-mode streams unchanged. See [0.7.0].
+# 0.7.1: internal cleanup (byte-identical output) — ~6.3k LOC removed (legacy stabilizer
+#   reps, extsim, dead apps), research code split out of the magic engine, chi_max fully
+#   retired internally, TU splits + consolidated kernels. Plus small user-facing fixes:
+#   Circuit.__eq__ round-trip, typed Reference() error, doc cleanups. See [0.7.1].
+# 0.8.0: framed circuit-level engine is the production default — memory-mode (R=0) sampling
+#   ~1.2x faster (QEC_FRAMED, default on; =0 for the previous engine + exact 0.7.1 streams);
+#   expectation-mode worst-path shots 2-10x faster (QEC_AB_OBS, default on). No API/.ref
+#   change. ⚠ R=0 same-seed byte streams differ from 0.7.1 (statistically identical, 5σ
+#   Stim-validated). See [0.8.0].
+# 1.0.0: ONE ENGINE (engine-8) — the framed circuit-level engine carries all modes at all χ;
+#   the legacy loop + LeanState are deleted, χ>2 fully supported. BREAKING: env levers
+#   QEC_FRAMED/QEC_AB_REDUCE/QEC_AB_OBS removed (no ≤0.8.0 stream repro; QEC_FORCE_FALLBACK
+#   retained); R>0 + d5-class R=0 streams changed (stat. identical); expectation values
+#   outcome-conditioned at every χ (means unaffected); .ref format v4 (v4 unreadable by
+#   ≤0.8.0; reads v2/v3/v4). See [1.0.0].
+# 1.0.1: perf fix — the per-shot expectation-channel tree memo thrashed on high-pattern-
+#   diversity circuits (code_switching_faithful 21.4 → 0.61 µs/shot; memo-on now beats
+#   memo-off). Channel trees are built as linear Pauli-correction chains, not path-unique
+#   exponential recursion; zero build refusals. R=0 byte-identical to 1.0.0; R>0 same-seed
+#   streams re-routed (stat. identical, pins/goldens regenerated). See [1.0.1].
+# 1.0.2: perf fix — the R=0 record-sampling path had the SAME memo thrash on high-pattern-
+#   diversity circuits (code_switching_faithful R=0 ~13 → ~0.85 µs/shot at default, now ~3x
+#   faster than Clifft). One-builder unification: the R=0 path uses the same linear-Pauli-
+#   chain construction as R>0. R=0 same-seed streams changed for the affected circuits
+#   (stat. identical, cs-row pins regenerated). See [1.0.2].
+# 2.6.0: exact-residual engine surface (ADDITIVE ONLY) — bulk sigma accessor
+#   (BarrierBuffer.sigmas()/sig_bits), combination-tracked port decomposition
+#   (FramedSuperposition.port_sigma_law), indefiniteness/plan exposure
+#   (certified_symplectic, BarrierBuffer.plan_structure, born_dec) + plan-key
+#   parser hardening. sample_barrier byte-identical; ENGINE_VERSION unchanged.
+#   See CHANGELOG [2.6.0].
+# 2.6.1: in-place set_seed (speed-kill T1/T2) — seeded sample()/sample_barrier()
+#   no longer reconstructs the TwirlRecordSampler; cultivation d5 at 2000
+#   shots/call drops from ~90 µs/shot to ~9–11 µs/shot (~10–12× speedup).
+#   No API or byte-stream change. See CHANGELOG [2.6.1].
+# 2.7.0: public engine cut — consolidates 2.6.0 + 2.6.1 for release (latest engine,
+#   no orchestration). The in-flight v3 `xtim.port` module was held back from the
+#   package (ships at 3.0.0); the compact-record C++ internals stayed (engine-
+#   internal, default-off). sample_barrier streams byte-identical to 2.5.0;
+#   ENGINE_VERSION unchanged. See CHANGELOG [2.7.0].
+# 2.8.0: LOCAL tag only (never published) — the port's seam-contract docs, the
+#   groups/residual_law record route, the driven input_bits path, and the
+#   Born-decision fast path. Superseded by 3.0.0. See CHANGELOG [2.8.0].
+# 3.0.0: xtim.port ships publicly — the declared-consumption segment surface
+#   (Consume / compile / Segment.run / Result: bare + record routes, group-indexed
+#   results, compact-record internal, plan disk-cache option) that 2.7.0 promised,
+#   plus the Born-decision fast path. BREAKING: the dead frame_in/frame_out and
+#   driven input_bits parameters are removed (never publicly released; the seam
+#   crossing is CLASSICAL and consumer-side, so no engine injection surface exists
+#   — see THE SEAM CONTRACT in xtim/port.py) and IF-driven circuits now refuse at
+#   port compile. ENGINE_VERSION unchanged (xtim-engine-9). See CHANGELOG [3.0.0].
+version = "3.1.0"
+description = "Stim-shaped simulator for logical magic-state-preparation protocols (an extended-Stim dialect with T/CS/CCZ and PAULI_EXPECTATION)."
+readme = "README.md"
+requires-python = ">=3.11"
+# License: Apache-2.0 (see LICENSE). The SPDX `license` expression is intentionally
+# omitted — setuptools>=77 validates it via `packaging.licenses`, which is missing in
+# some isolated build envs (cibuildwheel runners) -> build failure. `license-files`
+# still bundles the LICENSE into the wheel/sdist without that code path.
+license-files = ["LICENSE"]
+authors = [{ name = "The xtim Authors" }]
+keywords = ["stim", "quantum-error-correction", "magic-state", "stabilizer", "simulation"]
+# License is signalled via this classifier (the SPDX `license` field is omitted above
+# to avoid the cibuildwheel `packaging.licenses` code path; a classifier is fine).
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = ["numpy>=1.26"]
+
+[project.urls]
+Repository = "https://github.com/ikim-quantum/xtim"
+Changelog = "https://github.com/ikim-quantum/xtim/blob/main/CHANGELOG.md"
+Releases = "https://github.com/ikim-quantum/xtim/releases"
+
+# Decoding / DEM interop is optional: stim parses the exported DEM, pymatching
+# decodes it. The sampling core works without them.
+[project.optional-dependencies]
+decode = ["stim>=1.13", "pymatching>=2.0"]
+# Everything the examples/xtim_tutorial.ipynb notebook needs to run all cells.
+tutorial = ["stim>=1.13", "pymatching>=2.0", "matplotlib>=3.5"]
+dev = ["pytest>=8", "stim>=1.13", "pymatching>=2.0", "matplotlib>=3.5"]
+
+[tool.setuptools]
+packages = ["xtim"]
+
+# Ship the PEP 561 marker so downstream type-checkers see xtim's inline annotations.
+[tool.setuptools.package-data]
+# py.typed marker + the bundled demo circuits so xtim.load_example(...) works from
+# a pip-installed wheel with no repo clone (the .stim are generated into
+# xtim/_examples/ at export time from benchmarks/).
+xtim = ["py.typed", "_examples/*.stim"]
+
+# --- portable wheels (cibuildwheel) ----------------------------------------
+# QECCORE_PORTABLE=1 drops -march=native (setup.py) so a wheel built on a CI
+# machine runs on any student CPU and is bit-reproducible across machines. The
+# post-build smoke test imports the wheel and checks exact magic-state physics.
+[tool.cibuildwheel]
+build = "cp311-* cp312-* cp313-*"
+skip = "*-musllinux_* *_i686 *-win32"
+build-frontend = "build"
+# Build+test Linux wheels on manylinux_2_28 (GCC 12), not the default manylinux2014
+# (GCC 10.2). Required so the test step can install the newest numpy: numpy dropped
+# its manylinux2014 wheel at 2.3.0 and refuses to build from source on GCC < 10.3
+# (numpy>=2.5). On manylinux_2_28 numpy ships prebuilt wheels, so any reasonable
+# numpy installs and the runtime dep stays unpinned. Engine flags are unchanged
+# (QECCORE_PORTABLE -O3), so wheel performance is unaffected; only the Linux glibc
+# floor rises to 2.28 (RHEL8 / Ubuntu 18.10+ / any 2019+ distro). The engine headers
+# were made GCC-12-clean (explicit <cstddef> for size_t) — verified with a local
+# gcc-12.4 syntax pass over every TU.
+manylinux-x86_64-image = "manylinux_2_28"
+# -P: don't prepend {project} (the source tree, which shadows the installed wheel's
+# xtim/ with its uncompiled source) to sys.path — import the INSTALLED wheel.
+test-command = "python -P {project}/smoke_test.py"
+
+[tool.cibuildwheel.environment]
+QECCORE_PORTABLE = "1"
