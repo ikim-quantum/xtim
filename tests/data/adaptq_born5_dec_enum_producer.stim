@@ -1,0 +1,49 @@
+# Generated 2026-07-30 for the exact-residual T5 step-0 born-op classifier oracle.
+# Source class: the adaptq dec-enum born-branching workload of
+# tests/oracle/test_instrument_validation.py::test_dec_reference_enumerates_low_probability_branch
+# (five INDEPENDENT heavily-biased Born decisions: R; H T H; M per qubit, each reading 1 with
+# Born probability ~0.1464, joint all-ones branch p ~ 0.1464^5 ~ 6.7e-5 — the branch a 512-shot
+# discovery draw misses with probability ~0.97).  Two adaptations for the port oracle:
+#   * a CX-copied ancilla per decision qubit (OUTPUT_QUBITS must be unmeasured), so the port
+#     carries the born outcomes: bare certified stabilizer Z_q.Z_anc(q) times born op Z_q gives
+#     the port check Z_anc(q) — a certified (x) born-op span decomposition per check;
+#   * X_ERROR(0.05) on the ancillas AFTER the copy, so residual plans carry nontrivial prefix
+#     Paulis that conjugate the port checks (prefix (x) born composition exercised); the noise
+#     never touches a measured record, so decision records stay equal to the raw born coins.
+R 0 5
+H 0
+T 0
+H 0
+CX 0 5
+M 0
+DECISION(0) rec[-1]
+R 1 6
+H 1
+T 1
+H 1
+CX 1 6
+M 1
+DECISION(1) rec[-1]
+R 2 7
+H 2
+T 2
+H 2
+CX 2 7
+M 2
+DECISION(2) rec[-1]
+R 3 8
+H 3
+T 3
+H 3
+CX 3 8
+M 3
+DECISION(3) rec[-1]
+R 4 9
+H 4
+T 4
+H 4
+CX 4 9
+M 4
+DECISION(4) rec[-1]
+X_ERROR(0.05) 5 6 7 8 9
+OUTPUT_QUBITS out 5 6 7 8 9
