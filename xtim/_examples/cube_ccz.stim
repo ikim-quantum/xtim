@@ -1,0 +1,50 @@
+# [[8,3,2]] CUBE COLOR CODE — transversal CCZ (a MULTI-MAGIC example).
+#
+# This is the smallest code with a transversal non-Clifford gate on >1 logical
+# qubit: it encodes k=3 logical qubits in n=8 physical qubits (the cube's
+# vertices), and a transversal pattern of T / T_dag realizes a logical CCZ. The
+# OUTPUT is therefore the 3-logical-qubit magic state CCZ|+++>_L — a genuine
+# chi>2 state, not the single-magic chi<=2 sweet spot the other demos use.
+#
+# Code (from the QEC-Zoo [[8,3,2]] tableau):
+#   Z-stabilizers : Z0Z1Z6Z7, Z0Z2Z3Z6, Z2Z4Z6Z7, Z0Z2Z5Z7   (the 4 measured below)
+#   X-stabilizer  : X0..X7   (auto +1 on |+>^8, not measured)
+#   logical X_1,2,3 : X0X1X2X4, X0X1X3X5, X0X2X3X6   (the 3 PAULI_EXPECTATIONs)
+#
+# Protocol:
+#   1. |+>^8  (H all) — X-stabilizer and all logical-X are +1.
+#   2. Measure the 4 Z-stabilizers (MPP), then feedback-correct the random
+#      syndrome back to the syndrome-0 codespace -> |+++>_L, deterministically.
+#      (The feedback crosses the non-Clifford T's; xtim coherentizes it.)
+#   3. Transversal gate: T on {0,4,5,6}, T_dag on {1,2,3,7} = logical CCZ.
+#
+# Expectation: <X_1>=<X_2>=<X_3> = +0.5 (the logical-X marginals of CCZ|+++>),
+# DETERMINISTIC — 100% acceptance, no post-selection, sign-constant.
+#
+# Note: this multi-magic logical CCZ state compiles to stabilizer rank chi=8 (the
+# minimal-conditioning pass reduces the per-variable chi=2^4 to the shared-group
+# floor 2^3); the engine compiles and caches its reference (no fallback warning).
+# Sampling is exact.
+R 0 1 2 3 4 5 6 7
+H 0 1 2 3 4 5 6 7
+MPP Z0*Z1*Z6*Z7
+MPP Z0*Z2*Z3*Z6
+MPP Z2*Z4*Z6*Z7
+MPP Z0*Z2*Z5*Z7
+CX rec[-4] 0
+CX rec[-4] 1
+CX rec[-4] 2
+CX rec[-4] 3
+CX rec[-4] 6
+CX rec[-3] 0
+CX rec[-3] 1
+CX rec[-3] 2
+CX rec[-3] 3
+CX rec[-3] 4
+CX rec[-2] 4
+CX rec[-1] 5
+T 0 4 5 6
+T_DAG 1 2 3 7
+PAULI_EXPECTATION(0) X0*X1*X2*X4
+PAULI_EXPECTATION(1) X0*X1*X3*X5
+PAULI_EXPECTATION(2) X0*X2*X3*X6
