@@ -1,0 +1,208 @@
+# J-b2 G-ABSENT (plan r1 §5.1, r2.1): cumulative regexes of deleted legacy twirl code. Each J-b2 commit appends the
+# symbols / rodata strings / Python names it deletes; every earlier line stays, so every deletion stays gated.
+# Checked by: python -I tools/fx_leaves.py absent tools/jb2_absent.txt --so xtim/_xtim*.so --src cpp --src xtim
+#   --src tests --src tools   (a line ending "# src-ok" is checked in the binaries only).
+# J0: empty (nothing deleted yet).
+# ("# src-ok": binary-only — the name survives in history comments of untouched files; S7 owns docs and comments.)
+# J2: the legacy sampler's test-API surface (cpp/testapi/legacy_py.cpp, cpp/bindings/legacy_twirl.hpp, tests/_legacy.py)
+# and the test-API comparators of deleted engine code (PyFamilyRecordFidelity.legacy, PyFamilySampler.ppr_law).
+compile_legacy_sampler  # src-ok
+legacy_bare_state_of  # src-ok
+register_legacy
+LegacyRecordFidelity  # src-ok
+\bPyTwirlSampler\b  # src-ok
+\bPyBarrierBuffer\b  # src-ok
+\bPyRecordFidelity\b  # src-ok
+PyFamilyRecordFidelity::legacy
+FamilyRecordFidelity\.legacy
+(?<!family_)\bppr_law\b  # src-ok
+legacy_twirl\.hpp  # src-ok
+from _legacy import
+# J3: the legacy instantiation run_w<*, false>, its selection and its mutation hooks; TwirlRecordOptions::family.
+run_w<\d+, false>  # src-ok
+run_wILi\d+ELb0EEEbl
+XTIM_MUTATE_MUTSW
+XTIM_MUTATE_MUTCG_FAM_IN_TS
+opt\.family\b
+opt_\.family\b
+# J4: the legacy PPR-shot route in run_w and its exact route.
+\bexact_ppr_shot\b  # src-ok
+\bfb_alt_tableau\b
+PPR SELFCHECK FAIL
+# J5: the PPR plan family, the exact routes and their members, the OBS / EXACT streams, the σ-export inline members,
+# the legacy levers, the record_report legacy-route filter (NEW-1), and their mutation hooks.
+\bPprPlanCache\b
+\bPprCachedPlan\b
+\bcompose_ppr\b  # src-ok
+\bbuild_shot_law_ppr\b  # src-ok
+\bclassify_observable_ppr\b  # src-ok
+\bppr_key_words\b  # src-ok
+\bfamily_ppr_law\b  # src-ok
+\bFamilyPprLaw\b
+\balt_pnf\b
+\bpcache\b  # src-ok
+\bbuild_ppr_rows\b  # src-ok
+\bbuild_ppr_folds\b  # src-ok
+\bensure_obs_ppr\b  # src-ok
+\bmaterialize_exact_shot\b  # src-ok
+\bexact_diag_shot\b  # src-ok
+\bexact_sigma_bits\b
+\bexact_record_\b
+\bexact_hand_on_project_\b  # src-ok
+\bproject_onto_records_\b
+\bR_EXACT_FIRST\b
+\bR_EX_[A-Z_]+\b
+exact_ppr_noncommuting_alt
+exact_forced_lever
+\bborn_obs_bit_\b
+\bobs_draws_ppr\b
+\bppr_shot_\b
+\bexact_s_\b
+\bsigma_of_shot_\b
+\bensure_smap_\b  # src-ok
+\bretained_record_\b
+\bplan_bytes_\b
+\brequire_rec_uz_\b
+\bsigma_aux_coins\b
+QEC_TW_FORCE_RECORD_FALLBACK  # src-ok
+\blever_tw_prof\b
+\blever_tw_count\b
+twirl_records PROF
+on the legacy route
+XTIM_MUTATE_Q2_OBS_ON_DIAG
+XTIM_MUTATE_MA1_NO_W
+XTIM_MUTATE_MS1_COND_DECISIONS
+XTIM_MUTATE_MD1_SUPPORT_RULE
+XTIM_MUTATE_MB1_INTRODUCERS
+XTIM_MUTATE_R65_L_ROW0
+XTIM_MUTATE_MS2_AUX_AT_RHO_CH
+XTIM_MUTATE_MS4_AUX_WORD
+XTIM_MUTATE_MC1_DROP_W_DIRECTION
+XTIM_MUTATE_MC2_TRACK_W
+XTIM_MUTATE_S5A_PLANBYTES_NOCZ
+XTIM_MUTATE_S5A_SIGMA_NOPREFIX
+XTIM_MUTATE_S5A_RETAIN_SLOW
+# J6: the record-class bits (FamilyClass, family_classes, the TA class knob), the class-off refusals, the legacy
+# classification lists anti_dets / refused_obs and their accessors, the obsdbg lever, tools/classmix_bytes.py.
+\bFamilyClass\b
+\bfamily_classes_?\b
+\bclass_bits\b  # src-ok
+\btwin_class_bits\b
+\banti_dets\b
+\brefused_obs\b
+\banti_detectors\(\)  # src-ok
+\brefused_observables\(\)
+\bgauge_detectors\(\)
+lever_tw_obsdbg
+QEC_TW_OBSDBG  # src-ok
+\benv_set_once_\b
+obsdbg-setup
+needs the ppr_records class
+need the ppr_records class
+need the frames class
+unknown record class
+family class anti_det is off
+family class extra_obs is off
+XTIM_MUTATE_MUTCLASS_GAUGE_COIN
+XTIM_MUTATE_MUTANTI_COIN
+XTIM_MUTATE_P2_NO_GUARD
+classmix_bytes  # src-ok
+# J6b: the input-frame dressing and static relabel (E14; the frame row moves into fam_frame_take_), the legacy
+# sinks BarrierSink / DetsPackSink and the legacy emit_shot (E15), the gauge coin stream (E7 / E6 GAUGE), the
+# PPR TU's last function (ppr_rots_from_diag) and its files.
+\bBarrierSink\b  # src-ok
+\bDetsPackSink\b  # src-ok
+\bbarrier_sink_\b
+\bdets_pack_sink_\b
+\bset_barrier_sink\b  # src-ok
+\bset_dets_pack_sink\b  # src-ok
+Impl::emit_shot\b
+\bemit_gauge_coins\b  # src-ok
+\bgauge_stream\b  # src-ok
+\bgauge_dets\b
+\bgauge_s_\b
+\bFrameDressingExport\b  # src-ok
+\bset_frame_dressing_export\b
+\bframe_slot_status\b
+\bdress_compute_\b
+\bdress_shot_\b
+\bdress_export_shot_\b
+\bdress_record_ppr_alt_\b
+\bdress_apply_alt_\b
+\bDressAxis\b
+\bapply_input_frame\b  # src-ok
+\bframe_born_flip\b  # src-ok
+\bframe_xrow_\b
+\bframe_poison_\b
+\bfam_lift_poison_\b
+\bcur_frame_row_\b  # src-ok
+\bany_dressed_\b
+\bppr_rots_from_diag\b  # src-ok
+twirl_ppr\.(cpp|hpp)  # src-ok
+opaque PPR atom
+XTIM_MUTATE_FS_GAUGE_ORDER
+# J8: the RecordFidelity layout-2 (channel / σ-generator) reader and the σ port law.
+RecordFidelity::intern_plan
+RecordFidelity::Impl::intern\(
+RecordFidelity::Impl::plan\(
+RecordFidelity::Impl::dress\(
+RecordFidelity::Impl::zq_img
+RecordFidelity::has_born_obs
+qeccore::RecordFidelity::evaluate\(
+port_sigma_law\(  # src-ok
+\bwith_sigma\b
+# J7b: the σ dual basis and the σ law's κ>0 kernel section (E10, E11 TWK side, E17 NULLSPACE_XCHECK, T4): the dual
+# builder and its view, the σ map / σ-aux trie, the σ cache mode + TWPL v5, the solver test seams, the readers' and
+# the (D) builds' G-B1 comparators.
+qeccore::build_record_table\(
+\bSigmaLawView\b
+\bSigmaMap\b
+\bkernel_dual_basis\b  # src-ok
+\bactive_nullspace\b  # src-ok
+\bnullspace_for_test\b
+\bNullspaceXcheck\b
+QEC_TW_NULLSPACE_XCHECK  # src-ok
+nullspace xcheck
+\bkernel_masks\b  # src-ok
+\bkernel_pre\b  # src-ok
+\bkernel_foldable\b  # src-ok
+\bkernel_base\b  # src-ok
+\bcoin_masks\b  # src-ok
+\bsigma_payload\b
+\bset_want_sigma\b
+\bwant_sigma_\b
+\bwalk_forced\b
+\bsigma_trie\b
+\baux_walks\b
+\bmut_sigma_lam_\b
+\breader_recb_check_\b
+\bset_family_recb_check\b
+\btables_dual\b
+\brecb_check_bad\b
+\bdual_build_one_\b
+Impl::build_rec_\b
+QECCORE_TWIRL_OPCOUNT
+\belimination_ops_for_test\b
+XTIM_MUTATE_MS3_AUX_FIRST
+XTIM_MUTATE_MRD_WALK_ALL
+XTIM_MUTATE_RECB_OFF
+XTIM_MUTATE_R72_TRANSPOSE_SKIP_TOP
+# J9: the always-true FAM template parameter (run_w<FW, true> -> run_w<FW>), the fam_ flag and its family() accessors.
+run_w<\d+, true>  # src-ok
+run_wILi\d+ELb1EEEbl
+\bfam_\b
+TwirlRecordSampler::family\(\)
+# J10b (fixplan-J10-reach, ruling (A)): twirl members left without any caller by J-b2 (G-REACH); channel_refs added (misfiled in the fixplan).
+TwirlRecordSampler::record_outcomes\(
+TwirlRecordSampler::record_table\(
+TwirlRecordSampler::record_table_held\(
+TwirlRecordSampler::record_values\(
+TwirlRecordSampler::plan_born_directions\(
+TwirlRecordSampler::born_obs_op\(
+TwirlRecordSampler::born_obs_record_column\(
+TwirlRecordSampler::plan_hits\(
+TwirlRecordSampler::plan_misses\(
+\bfamily_channel_model\b
+\bFamilyChannelModel\b
+RecordFidelity::k\(\)
+TwirlRecordSampler::channel_refs\(

@@ -1,0 +1,4432 @@
+{
+ "stage": "J-b1",
+ "engine_version": {
+  "old": "xtim-engine-12",
+  "new": "xtim-engine-13"
+ },
+ "record_key_layout": {
+  "old": 2,
+  "new": 3
+ },
+ "twpl": {
+  "old": 5,
+  "new": 6
+ },
+ "status": "PRE-SIGNED, conditional (OD-2026-10-19-jb1-switchover-presigned)",
+ "classification": {
+  "counts": {
+   "OLD": 171,
+   "NEW": 171,
+   "FAMP": 171,
+   "LEG": 171
+  },
+  "BUG": 0,
+  "F-B1a": 0,
+  "F-B1a_value_M-MATROUTE": [
+   [
+    [
+     "core",
+     "blowup/circ/bh10.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bh12.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bh2.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bh4.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bh8.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bt27.stim"
+    ],
+    "c_pe",
+    3.2751579226442118e-15
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bt27_p0.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bt81.stim"
+    ],
+    "c_pe",
+    5.551115123125783e-15
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bt81_p0.stim"
+    ],
+    "c_pe",
+    2.220446049250313e-16
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/cult_d3.stim"
+    ],
+    "c_pe",
+    2.3092638912203256e-14
+   ],
+   [
+    [
+     "core",
+     "born/ccz_obs"
+    ],
+    "c_pe",
+    1.1102230246251565e-15
+   ],
+   [
+    [
+     "core",
+     "born/m3_det"
+    ],
+    "c_pe",
+    1.1102230246251565e-15
+   ],
+   [
+    [
+     "core",
+     "born/m3_obs"
+    ],
+    "c_pe",
+    8.881784197001252e-16
+   ],
+   [
+    [
+     "core",
+     "born/m3_obs_dec"
+    ],
+    "c_pe",
+    8.881784197001252e-16
+   ],
+   [
+    [
+     "core",
+     "born/m3_obs_x3"
+    ],
+    "c_pe",
+    8.881784197001252e-16
+   ],
+   [
+    [
+     "core",
+     "born/q3_dec"
+    ],
+    "c_pe",
+    6.661338147750939e-16
+   ],
+   [
+    [
+     "core",
+     "examples/ch_cultivation.stim"
+    ],
+    "c_pe",
+    2.7755575615628914e-16
+   ],
+   [
+    [
+     "core",
+     "examples/cultivation_d3_faithful.stim"
+    ],
+    "c_pe",
+    2.398081733190338e-14
+   ],
+   [
+    [
+     "core",
+     "examples/miniature_oracle.stim"
+    ],
+    "c_pe",
+    4.440892098500626e-16
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E2/t0_AA.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E2/t0_SD6.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E2/t1_AA.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E2/t1_SD6.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E7/e7_AA.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E7/e7_SD6.stim"
+    ],
+    "c_pe",
+    3.9968028886505635e-15
+   ]
+  ],
+  "F-B1a_pe_vs_old": [
+   [
+    [
+     "core",
+     "blowup/circ/bh6.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/bh6.stim"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/cult_d5.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "blowup/circ/cult_d5.stim"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "born/m3_obs_2dec"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "born/m3_obs_2dec"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "examples/code_switching_rate.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "examples/code_switching_rate.stim"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "examples/cultivation_d5.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "examples/cultivation_d5.stim"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E1/e1_ro_AA.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E1/e1_ro_AA.stim"
+    ],
+    "LEG",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E5/e5_AA.stim"
+    ],
+    "OLD",
+    0.0
+   ],
+   [
+    [
+     "core",
+     "rule/examples/E5/e5_AA.stim"
+    ],
+    "LEG",
+    0.0
+   ]
+  ],
+  "F-B1a_tool": [
+   [
+    [
+     "big",
+     "private/ccz_variant_24.stim"
+    ],
+    "rf_target",
+    "REFUSED ValueError: record_fidelity.Target: the circuit declares no OUTPUT_QUBITS port",
+    "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275: record operator anticommutes with the certified group \u2014 not a well-formed detector; refused at compile"
+   ],
+   [
+    [
+     "core",
+     "examples/cube_ccz.stim"
+    ],
+    "rf_target",
+    "REFUSED ValueError: record_fidelity.Target: the circuit declares no OUTPUT_QUBITS port",
+    "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels"
+   ]
+  ],
+  "F-B1b": 0,
+  "F-B3": 0,
+  "reverse": [
+   [
+    [
+     "big",
+     "private/ccz_variant_00.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_05.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_10.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_15.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_20.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_21.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_22.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_23.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_24.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_25.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_26.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_27.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_28.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_29.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_30.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_31.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_32.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/private/ccz_factory_b.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_34.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_35.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_36.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_38.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_39.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_41.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_42.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "private/ccz_variant_45.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "tests/data/adaptq_born5_dec_enum_producer.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "tests/data/adaptq_steane_h_producer.stim"
+    ],
+    "M-ENGINE"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0010_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0013_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0015_cube+cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0028_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0030_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0050_cube+cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0062_cube+rm.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0064_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0129_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/data/dem_factored_law/v2_777_0149_cube.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/private/ccz_factory_b.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/private/ccz_factory_a.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "big",
+     "tests/private/ccz_factory_a_out.stim"
+    ],
+    "M-RFL3"
+   ],
+   [
+    [
+     "core",
+     "examples/code_switching_rate.stim"
+    ],
+    "M-RFL3"
+   ]
+  ],
+  "F-B5": {
+   "old_accepts_new_refuses": [],
+   "old_refuses_new_serves": [
+    [
+     [
+      "big",
+      "private/ccz_variant_24.stim"
+     ],
+     "sampler",
+     "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 12",
+     [
+      "M-ANTI"
+     ]
+    ],
+    [
+     [
+      "big",
+      "private/ccz_variant_24.stim"
+     ],
+     "det_twirl",
+     "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 12",
+     [
+      "M-ANTI"
+     ]
+    ],
+    [
+     [
+      "big",
+      "tests/data/adaptq_born5_dec_enum_producer.stim"
+     ],
+     "det_twirl",
+     "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+     [
+      "M-NOCH"
+     ]
+    ],
+    [
+     [
+      "big",
+      "tests/data/adaptq_steane_h_producer.stim"
+     ],
+     "det_twirl",
+     "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+     [
+      "M-NOCH"
+     ]
+    ],
+    [
+     [
+      "core",
+      "examples/code_switching_faithful.stim"
+     ],
+     "det_twirl",
+     "REFUSED RuntimeError: observable index(es) 0: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+     [
+      "M-ANTI"
+     ]
+    ],
+    [
+     [
+      "core",
+      "examples/cube_ccz.stim"
+     ],
+     "sampler",
+     "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+     [
+      "M-NOCH"
+     ]
+    ],
+    [
+     [
+      "core",
+      "examples/cube_ccz.stim"
+     ],
+     "det_twirl",
+     "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+     [
+      "M-NOCH"
+     ]
+    ],
+    [
+     [
+      "core",
+      "rule/examples/E10/e10_AA.stim"
+     ],
+     "det_twirl",
+     "REFUSED RuntimeError: observable index(es) 1: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+     [
+      "M-ANTI",
+      "M-DECPPR"
+     ]
+    ],
+    [
+     [
+      "core",
+      "rule/examples/E10/e10_SD6.stim"
+     ],
+     "det_twirl",
+     "REFUSED RuntimeError: observable index(es) 1: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+     [
+      "M-ANTI",
+      "M-DECPPR"
+     ]
+    ]
+   ],
+   "accepts_refuses_all_NC": true
+  }
+ },
+ "moved": [
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_00.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_01.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_02.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_03.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_04.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_05.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_06.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_07.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_08.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_09.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_10.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_11.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_12.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_13.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_14.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_15.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_16.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_17.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_18.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_19.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_20.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_21.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_24.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_24.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 168 169 170 171 172 173 174 175 176 177 17",
+   "new": "3a0ed832340705d3",
+   "mechanisms": [
+    "M-ANTI"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_24.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 168 169 170 171 172 173 174 175 176 177 17",
+   "new": "REFUSED RuntimeError: RecordFidelity: the reference overlap needs a register of 2^81 amplitudes; indices are 64-bit masks (k + u' <= 62) \u2014 refused",
+   "mechanisms": [
+    "M-ANTI",
+    "M-TYPED"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_24.stim",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: ANTI detector(s) 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 168 169 170 171 172 173 174 175 176 177 17",
+   "new": "REFUSED ValueError: record_fidelity.Target: the circuit declares no OUTPUT_QUBITS port",
+   "mechanisms": [
+    "M-ANTI",
+    "M-TYPED"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_25.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_26.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_27.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_28.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_29.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_30.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_31.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_32.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_33.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/private/ccz_factory_b.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_34.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_35.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_36.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_37.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_38.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_39.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_40.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_41.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_42.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_43.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_44.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "private/ccz_variant_46.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/15to1_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh10_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh12_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh14_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh16_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh18_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh20_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh2_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh4_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh6_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bh8_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bt27_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/bt81_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/cult_d3_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "stateroute/circ/cult_d5_ts.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_born5_dec_enum_producer.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_born5_dec_enum_producer.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+   "new": "e3b0c44298fc1c14",
+   "mechanisms": [
+    "M-NOCH"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_born5_dec_enum_producer.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "7494f65cc28e8e95",
+   "mechanisms": [
+    "M-NOCH",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_born5_dec_enum_producer.stim",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "ee4fa02436c0a3d4",
+   "mechanisms": [
+    "M-NOCH",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_qrm_magic_producer.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_steane_h_producer.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/adaptq_steane_h_producer.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+   "new": "e3b0c44298fc1c14",
+   "mechanisms": [
+    "M-NOCH"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0008_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0010_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0013_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0015_cube+cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0020_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0022_rm+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0028_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0030_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0043_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0045_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0050_cube+cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0051_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0062_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0064_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0067_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0068_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0069_cube+cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0076_rm+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0089_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0090_rm+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0097_rm+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0104_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0116_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0122_cube+rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0129_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0137_rm.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/dem_factored_law/v2_777_0149_cube.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/private/ccz_factory_b.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "det_twirl",
+   "old": "54e048b4766cdf65",
+   "new": "84621525eca1b823",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "twirl_sample_c",
+   "old": "d3623f5456da88a1",
+   "new": "2c7ed43fee0be6bb",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "4fd4b0986dd1ef12",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/private/ccz_factory_a.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/private/ccz_factory_a_out.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "big",
+   "circuit": "tests/data/merlin_switch3_bt27_p0.stim",
+   "surface": "ref_info",
+   "old": "1966b76de7d6f16b",
+   "new": "63780c0bed90f8b0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/15to1.stim",
+   "surface": "ref_info",
+   "old": "3a5c70d914b283f9",
+   "new": "ac5726bb27927293",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/15to1.stim",
+   "surface": "det_default_exp",
+   "old": "66ef2eeb063fe1d4",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh10.stim",
+   "surface": "ref_info",
+   "old": "2d1a0bb12e21827e",
+   "new": "0405c7629bcb4030",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh10.stim",
+   "surface": "det_default_exp",
+   "old": "0f5226cd1aaeafab",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh12.stim",
+   "surface": "ref_info",
+   "old": "1902000f2d796fa2",
+   "new": "c56f946091b54bad",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh12.stim",
+   "surface": "det_default_exp",
+   "old": "728ee1714c707a1e",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh2.stim",
+   "surface": "ref_info",
+   "old": "71f206d8b088e603",
+   "new": "c9c117f5bdcab7a5",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh2.stim",
+   "surface": "det_default_exp",
+   "old": "b2320ea91eccc3c9",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh4.stim",
+   "surface": "ref_info",
+   "old": "2f0ab3033f5e9187",
+   "new": "bbcb0719355028d2",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh4.stim",
+   "surface": "det_default_exp",
+   "old": "e87b68be417b8f93",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh6.stim",
+   "surface": "ref_info",
+   "old": "4f76dfa90a1e403a",
+   "new": "7afd3039cfcf57d0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh6.stim",
+   "surface": "det_default_exp",
+   "old": "9fddb88fb3149f60",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh8.stim",
+   "surface": "ref_info",
+   "old": "b416b61f73f7ebdb",
+   "new": "388610e6d678d4d4",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bh8.stim",
+   "surface": "det_default_exp",
+   "old": "47187e4e2a064883",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt27.stim",
+   "surface": "ref_info",
+   "old": "6b7ba00ee4d61fd7",
+   "new": "3e59dc3b9b0b16c9",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt27.stim",
+   "surface": "det_default_exp",
+   "old": "de04e74f19100883",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt27_p0.stim",
+   "surface": "ref_info",
+   "old": "6b7ba00ee4d61fd7",
+   "new": "3e59dc3b9b0b16c9",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt27_p0.stim",
+   "surface": "det_default_exp",
+   "old": "c72274a22cba2dce",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt81.stim",
+   "surface": "ref_info",
+   "old": "8ccdd6a5a8c86d53",
+   "new": "cff22d034974f2c0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt81.stim",
+   "surface": "det_default_exp",
+   "old": "921c4ae2b5ab9fdf",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt81_p0.stim",
+   "surface": "ref_info",
+   "old": "8ccdd6a5a8c86d53",
+   "new": "cff22d034974f2c0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/bt81_p0.stim",
+   "surface": "det_default_exp",
+   "old": "b1973a6f7a06562b",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d3.stim",
+   "surface": "ref_info",
+   "old": "19b5735c14dd0243",
+   "new": "834ca55dd59e1151",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d3.stim",
+   "surface": "det_default_exp",
+   "old": "e42622339923f8a6",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d3_p0.stim",
+   "surface": "ref_info",
+   "old": "19b5735c14dd0243",
+   "new": "834ca55dd59e1151",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d3_p0.stim",
+   "surface": "det_default_exp",
+   "old": "f85f2c34eb2843d2",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d5.stim",
+   "surface": "ref_info",
+   "old": "02735d7655106a2f",
+   "new": "666614a42e7a7885",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d5.stim",
+   "surface": "det_default_exp",
+   "old": "832ce19a5a2defd0",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d5_p0.stim",
+   "surface": "ref_info",
+   "old": "02735d7655106a2f",
+   "new": "666614a42e7a7885",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "blowup/circ/cult_d5_p0.stim",
+   "surface": "det_default_exp",
+   "old": "636d879fa57eb81d",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/ccz_obs",
+   "surface": "ref_info",
+   "old": "4e03e631cd4cb22f",
+   "new": "9fa0d191c18e977b",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/ccz_obs",
+   "surface": "det_default_exp",
+   "old": "1d75f56dace41c62",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/ccz_obs",
+   "surface": "rf_ref",
+   "old": "8efcfe4574bb7fb1",
+   "new": "f3e30007fb5ffa37",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_det",
+   "surface": "ref_info",
+   "old": "dc8437f64fd4201a",
+   "new": "5417c35da96b22e0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_det",
+   "surface": "det_default_exp",
+   "old": "1d1c1bc6b3196b81",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs",
+   "surface": "ref_info",
+   "old": "e2bdc2a777089a1c",
+   "new": "ea8d09246c0c07a9",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs",
+   "surface": "det_default_exp",
+   "old": "935fff654265fbc9",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs",
+   "surface": "rf_ref",
+   "old": "4b2f47ec67720ea6",
+   "new": "ff0c9138e0c91f4d",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_2dec",
+   "surface": "ref_info",
+   "old": "84f89742d5206f29",
+   "new": "29c8aed82f0f942c",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_2dec",
+   "surface": "det_default_exp",
+   "old": "abc3f12cd43f1d54",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_2dec",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "9c9c2a11de8ab260",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_2dec",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "9ed10f8fdd253317",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_dec",
+   "surface": "ref_info",
+   "old": "dc8437f64fd4201a",
+   "new": "5417c35da96b22e0",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_dec",
+   "surface": "det_default_exp",
+   "old": "f907847e761fd6a5",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_dec",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "396a06a2ef37334d",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_dec",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "e3856d5493c2e6de",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_x3",
+   "surface": "ref_info",
+   "old": "e2bdc2a777089a1c",
+   "new": "ea8d09246c0c07a9",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_x3",
+   "surface": "det_default_exp",
+   "old": "74bff5f0df6c7a7a",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/m3_obs_x3",
+   "surface": "rf_ref",
+   "old": "c847688590ee02cd",
+   "new": "28945750338a7687",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/q3_dec",
+   "surface": "ref_info",
+   "old": "d9cb4317c734a904",
+   "new": "f49d61c25ab62cde",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/q3_dec",
+   "surface": "det_default_exp",
+   "old": "7767bad1ac36c404",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/q3_dec",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "5e72e2c9b657499f",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "born/q3_dec",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: RecordFidelity: the circuit declares Born-class DECISIONs \u2014 their re-measurement on the retained state is not part of the v1 record-fidelity model; refused",
+   "new": "e6a8cd68126ac19e",
+   "mechanisms": [
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "ref_info",
+   "old": "c08081db3a1ea653",
+   "new": "879370c7514b4adc",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "det_twirl",
+   "old": "bbb5b17dc33083fe",
+   "new": "a0a280d637542f1f",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "det_default",
+   "old": "6d90977edba3dc6c",
+   "new": "f2a70f485a1fe978",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "det_default_exp",
+   "old": "41506311a521e1ef",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "twirl_sample_c",
+   "old": "6353e4a2d6871ea8",
+   "new": "ab6804594b42d33c",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/ch_cultivation.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "1a354d9a5874bc79",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "ref_info",
+   "old": "c939291d5d4ed3b3",
+   "new": "ec9280dae3f02d2e",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED RuntimeError: observable index(es) 0: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+   "new": "95a1d8636db539fb",
+   "mechanisms": [
+    "M-ANTI"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "det_default",
+   "old": "bcb4316da1c8cfba",
+   "new": "f92a3965308897e4",
+   "mechanisms": [
+    "M-ANTI",
+    "M-ENGINE"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "det_default_exp",
+   "old": "f4958fdd974f96ff",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-ANTI",
+    "M-ENGINE",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "twirl_sample_c",
+   "old": "2fba2ea719c717f2",
+   "new": "b2e72ba3e70cfb0a",
+   "mechanisms": [
+    "M-ANTI"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "rf_ref",
+   "old": "9138f4d1f4c57d60",
+   "new": "e41c71064e58514e",
+   "mechanisms": [
+    "M-ANTI"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_faithful.stim",
+   "surface": "c_obs",
+   "old": null,
+   "new": null,
+   "mechanisms": [
+    "M-ANTI"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_rate.stim",
+   "surface": "ref_info",
+   "old": "c939291d5d4ed3b3",
+   "new": "ec9280dae3f02d2e",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/code_switching_rate.stim",
+   "surface": "det_default_exp",
+   "old": "5383b3435a806a57",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cube_ccz.stim",
+   "surface": "ref_info",
+   "old": "e52e97024413f482",
+   "new": "d68c69e0d362ea80",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cube_ccz.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+   "new": "e3b0c44298fc1c14",
+   "mechanisms": [
+    "M-NOCH"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cube_ccz.stim",
+   "surface": "det_default_exp",
+   "old": "7740204e0c9c9ba9",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-NOCH",
+    "M-ENGINE",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cube_ccz.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+   "new": "9498dac910b1db18",
+   "mechanisms": [
+    "M-NOCH"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cube_ccz.stim",
+   "surface": "rf_target",
+   "old": "REFUSED ValueError: twirl sampler setup failed: no deterministic detector channels",
+   "new": "REFUSED ValueError: record_fidelity.Target: the circuit declares no OUTPUT_QUBITS port",
+   "mechanisms": [
+    "M-NOCH",
+    "M-TYPED"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d3_faithful.stim",
+   "surface": "ref_info",
+   "old": "c4ee107e1e213709",
+   "new": "1f99ff066eef38f3",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d3_faithful.stim",
+   "surface": "det_default_exp",
+   "old": "de6576676be09484",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d3_rate.stim",
+   "surface": "ref_info",
+   "old": "0c5a2de6a9df454a",
+   "new": "cea4a2ad2fd06abb",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d3_rate.stim",
+   "surface": "det_default_exp",
+   "old": "30804c452baa01ee",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d5.stim",
+   "surface": "ref_info",
+   "old": "02735d7655106a2f",
+   "new": "666614a42e7a7885",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/cultivation_d5.stim",
+   "surface": "det_default_exp",
+   "old": "cf1ddbd3a3da3d9e",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/distillation_15_1_3.stim",
+   "surface": "ref_info",
+   "old": "c6aab9b6a43f3af1",
+   "new": "341ba51718fcf96f",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/distillation_15_1_3.stim",
+   "surface": "det_default_exp",
+   "old": "9f7eb17345fe2a4a",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/miniature_oracle.stim",
+   "surface": "ref_info",
+   "old": "f279efc96a472669",
+   "new": "badfd88ce1555329",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "examples/miniature_oracle.stim",
+   "surface": "det_default_exp",
+   "old": "f0b7ffeab21f3c1b",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "ref_info",
+   "old": "7344413388eeb675",
+   "new": "959c2d8aac7c0812",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "det_twirl",
+   "old": "0d206c94e5ba5046",
+   "new": "fc19b19971194257",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "det_default",
+   "old": "236b232fb94678b3",
+   "new": "2da42fb1d7bd8524",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "det_default_exp",
+   "old": "67042dfda5683aea",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PORTREF",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "twirl_sample_c",
+   "old": "003164e6603fa379",
+   "new": "c81ca5eda5947c78",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro",
+   "surface": "c_dets",
+   "old": null,
+   "new": null,
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "ref_info",
+   "old": "4f01c92f27e3cfde",
+   "new": "e813585ea26654dc",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "det_twirl",
+   "old": "8d9e00748e76bf09",
+   "new": "d999eecccd8ed562",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "det_default",
+   "old": "a31b001cd7a552cb",
+   "new": "b87b0b10059f397e",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "det_default_exp",
+   "old": "8085aaebd68d0ec8",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PORTREF",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "twirl_sample_c",
+   "old": "6c454801af70aca5",
+   "new": "9a9dae3930b6fddd",
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/a1_repro_noisy",
+   "surface": "c_dets",
+   "old": null,
+   "new": null,
+   "mechanisms": [
+    "M-PORTREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "port/carried1_state",
+   "surface": "state_sample",
+   "old": "124582c108bb48de",
+   "new": "b8fbb42680dda527",
+   "mechanisms": [
+    "M-PORTREF",
+    "M-SPLICE"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_AA.stim",
+   "surface": "ref_info",
+   "old": "eca76f6058633aab",
+   "new": "4756f3f2525b8c54",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_AA.stim",
+   "surface": "det_default_exp",
+   "old": "20626c2d1c2c1ec3",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_SD6.stim",
+   "surface": "ref_info",
+   "old": "eca76f6058633aab",
+   "new": "4756f3f2525b8c54",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "cf7edc91797af4f3",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_ro_AA.stim",
+   "surface": "ref_info",
+   "old": "929964e2167435fb",
+   "new": "bbe62b35b672cfce",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_ro_AA.stim",
+   "surface": "det_default_exp",
+   "old": "673952d8e255f30c",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_ro_SD6.stim",
+   "surface": "ref_info",
+   "old": "929964e2167435fb",
+   "new": "bbe62b35b672cfce",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E1/e1_ro_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "e4035c6703d3751f",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "ref_info",
+   "old": "e30682c03f05280f",
+   "new": "a19a2e18f22b7732",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED RuntimeError: observable index(es) 1: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+   "new": "d5a0c118c7cf3be2",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "det_default",
+   "old": "31f2dd768c50333e",
+   "new": "5a36ac6485f4983f",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-ENGINE"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "det_default_exp",
+   "old": "431c449386fdaf05",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-ENGINE",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "twirl_sample_c",
+   "old": "210ba96b8d096bf8",
+   "new": "961d6f185d34e444",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_AA.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "450ebf9d7d93d5f2",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "ref_info",
+   "old": "e30682c03f05280f",
+   "new": "a19a2e18f22b7732",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "det_twirl",
+   "old": "REFUSED RuntimeError: observable index(es) 1: operator is not IN_GROUP (logical) \u2014 no exact record channel exists in the twirl product; pass skip_refused_observables=True to compile_twirl_sampler to emit all-zero columns for them",
+   "new": "487e521cf4a29309",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "det_default",
+   "old": "c7b2666da005eb20",
+   "new": "5befa252364a0aea",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-ENGINE"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "24b25ba07e14fb4d",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-ENGINE",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "twirl_sample_c",
+   "old": "822d5a0cd5ce5463",
+   "new": "e975a2264c402f3e",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_SD6.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "022f2917b0932a3f",
+   "mechanisms": [
+    "M-ANTI",
+    "M-PPR",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_twin_AA.stim",
+   "surface": "ref_info",
+   "old": "167800361b9ffa76",
+   "new": "40ab82be3009c253",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_twin_AA.stim",
+   "surface": "det_default_exp",
+   "old": "55d7c888f29a1f32",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_twin_SD6.stim",
+   "surface": "ref_info",
+   "old": "167800361b9ffa76",
+   "new": "40ab82be3009c253",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E10/e10_twin_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "4b609ce371e75154",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E11/e11_AA.stim",
+   "surface": "ref_info",
+   "old": "178e97d8287e6dfb",
+   "new": "e69dd21077d18213",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E11/e11_AA.stim",
+   "surface": "det_default_exp",
+   "old": "431385556cc12f53",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E11/e11_SD6.stim",
+   "surface": "ref_info",
+   "old": "178e97d8287e6dfb",
+   "new": "e69dd21077d18213",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E11/e11_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "bb5d6c3d80ca6aa5",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "ref_info",
+   "old": "896ab1a9293c83ae",
+   "new": "48e9d99186ea7784",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "det_twirl",
+   "old": "3720c9633d01d40f",
+   "new": "120e95436bfede9f",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "det_default",
+   "old": "01c421e6c2de75c0",
+   "new": "075417d42d88ab70",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "det_default_exp",
+   "old": "f33bf8a669810037",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "twirl_sample_c",
+   "old": "e831ac2198a14c68",
+   "new": "2970e84158d5a420",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_AA.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "1b51f1d1157b00b9",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "ref_info",
+   "old": "896ab1a9293c83ae",
+   "new": "48e9d99186ea7784",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "det_twirl",
+   "old": "8ffc90802caf64e3",
+   "new": "1cf7613a55c010fc",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "det_default",
+   "old": "b0bfd9f74ec4167e",
+   "new": "a06c977c14944d19",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "40c91dd4f42dc219",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "twirl_sample_c",
+   "old": "aba479f3290223e0",
+   "new": "282bed9c44420e37",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_SD6.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "0da4dc2306ba42ba",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_twin_AA.stim",
+   "surface": "ref_info",
+   "old": "bd96b076af706154",
+   "new": "8ac1238ed6e5d642",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_twin_AA.stim",
+   "surface": "det_default_exp",
+   "old": "595d5b7d0c5b9cf5",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_twin_SD6.stim",
+   "surface": "ref_info",
+   "old": "bd96b076af706154",
+   "new": "8ac1238ed6e5d642",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t0_twin_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "bb18d4610ae69723",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "ref_info",
+   "old": "d2bda4d53f4ac59f",
+   "new": "5a8bd770e6bea6c8",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "det_twirl",
+   "old": "0b375321b844b235",
+   "new": "ad0682fd661c334b",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "det_default",
+   "old": "ff49f06e6f2d6ac3",
+   "new": "e7ea598b746aa0f4",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "det_default_exp",
+   "old": "817ab63535cee526",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "twirl_sample_c",
+   "old": "3d2024a806381522",
+   "new": "c6fd56b2fec3ecd4",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_AA.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "a962dbaada57f220",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "ref_info",
+   "old": "d2bda4d53f4ac59f",
+   "new": "5a8bd770e6bea6c8",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "det_twirl",
+   "old": "09fb66c12e45cb28",
+   "new": "8a11545d384e5906",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "det_default",
+   "old": "5f9168920d542b69",
+   "new": "b28a765566c5d257",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "c6bfe0cb9f932f24",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "twirl_sample_c",
+   "old": "ae7349a93327d3d4",
+   "new": "7747b5af654c2783",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_SD6.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "f5c91d8d85205522",
+   "mechanisms": [
+    "M-PPR",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_twin_AA.stim",
+   "surface": "ref_info",
+   "old": "7124542fd3d09446",
+   "new": "d689c780d0f94776",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_twin_AA.stim",
+   "surface": "det_default_exp",
+   "old": "62ad3f2bde8ef5f2",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_twin_SD6.stim",
+   "surface": "ref_info",
+   "old": "7124542fd3d09446",
+   "new": "d689c780d0f94776",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E2/t1_twin_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "a18bef2edfd94794",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E3/e3_AA.stim",
+   "surface": "ref_info",
+   "old": "35f5001a1ab24dd2",
+   "new": "e0f093b017ca0817",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E3/e3_AA.stim",
+   "surface": "det_default_exp",
+   "old": "e8699f2b976e7993",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E3/e3_SD6.stim",
+   "surface": "ref_info",
+   "old": "35f5001a1ab24dd2",
+   "new": "e0f093b017ca0817",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E3/e3_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "cd2ac928dc825b78",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E4/e4_AA.stim",
+   "surface": "ref_info",
+   "old": "9acb93a7b8638088",
+   "new": "478b951d4a76dbb6",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E4/e4_AA.stim",
+   "surface": "det_default_exp",
+   "old": "ba668c660d0b23d0",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E4/e4_SD6.stim",
+   "surface": "ref_info",
+   "old": "9acb93a7b8638088",
+   "new": "478b951d4a76dbb6",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E4/e4_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "98f9e91f8596232a",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E5/e5_AA.stim",
+   "surface": "ref_info",
+   "old": "9acb93a7b8638088",
+   "new": "478b951d4a76dbb6",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E5/e5_AA.stim",
+   "surface": "det_default_exp",
+   "old": "ba668c660d0b23d0",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E5/e5_SD6.stim",
+   "surface": "ref_info",
+   "old": "9acb93a7b8638088",
+   "new": "478b951d4a76dbb6",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E5/e5_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "98f9e91f8596232a",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E6/e6_AA.stim",
+   "surface": "ref_info",
+   "old": "aad35d565c72b3aa",
+   "new": "cfbc3ef01e6b14df",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E6/e6_AA.stim",
+   "surface": "det_default_exp",
+   "old": "d8d117bd951e6e5f",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E6/e6_SD6.stim",
+   "surface": "ref_info",
+   "old": "aad35d565c72b3aa",
+   "new": "cfbc3ef01e6b14df",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E6/e6_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "a28286ba3af39596",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "ref_info",
+   "old": "f80f93fafb50b323",
+   "new": "61d5ec2e66afd945",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "det_twirl",
+   "old": "3a5c79fe672312da",
+   "new": "7ad8747d284f3700",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "det_default",
+   "old": "7aae7dac97220757",
+   "new": "bf51ae2ed82bb4a9",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "det_default_exp",
+   "old": "ba17a3fa725c0d11",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "twirl_sample_c",
+   "old": "11bd0ddb5d4b3ed5",
+   "new": "fe357a1c805cdcb3",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_AA.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "e399307a04186b7d",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "ref_info",
+   "old": "f80f93fafb50b323",
+   "new": "61d5ec2e66afd945",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "det_twirl",
+   "old": "7b8a02b5a77352e8",
+   "new": "f47cbae6ebbce81a",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "det_default",
+   "old": "f2ff6f0d6d8bc4ab",
+   "new": "265ef3baa9ea946f",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "5a72ecb687e0e6bd",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "twirl_sample_c",
+   "old": "812689032855991a",
+   "new": "cd14c828afe01bbf",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_SD6.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "4da5d9001b5ce073",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-RFL3"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_twin_AA.stim",
+   "surface": "ref_info",
+   "old": "51b38e5ef67d710b",
+   "new": "e52ec0a1d9a04062",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_twin_AA.stim",
+   "surface": "det_default_exp",
+   "old": "ce1947a2789e5661",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_twin_SD6.stim",
+   "surface": "ref_info",
+   "old": "51b38e5ef67d710b",
+   "new": "e52ec0a1d9a04062",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E7/e7_twin_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "27c32b554f18c3bd",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E8/e8_AA.stim",
+   "surface": "ref_info",
+   "old": "35f5001a1ab24dd2",
+   "new": "e0f093b017ca0817",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E8/e8_AA.stim",
+   "surface": "det_default_exp",
+   "old": "e8699f2b976e7993",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E8/e8_SD6.stim",
+   "surface": "ref_info",
+   "old": "35f5001a1ab24dd2",
+   "new": "e0f093b017ca0817",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E8/e8_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "cd2ac928dc825b78",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E9/e9_AA.stim",
+   "surface": "ref_info",
+   "old": "21ae171b264b20a3",
+   "new": "62f0c5e60f3b5678",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E9/e9_AA.stim",
+   "surface": "det_default_exp",
+   "old": "f11fb6f14462f24e",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E9/e9_SD6.stim",
+   "surface": "ref_info",
+   "old": "21ae171b264b20a3",
+   "new": "62f0c5e60f3b5678",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "rule/examples/E9/e9_SD6.stim",
+   "surface": "det_default_exp",
+   "old": "1cbbe7dacc5504b4",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "ref_info",
+   "old": "877413492fbac8ef",
+   "new": "c123b5304952ae67",
+   "mechanisms": [
+    "M-VER"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "det_twirl",
+   "old": "54e048b4766cdf65",
+   "new": "84621525eca1b823",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "det_default",
+   "old": "cfc5bc1fbe709ed5",
+   "new": "aa357a8d3f548080",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "det_default_exp",
+   "old": "592cf8092d6f55ee",
+   "new": "REFUSED XtimTwirlRefusal[EXPECTATIONS_NOT_SERVED]: the twirl engine does not serve expectations: use engine='exact', or the record route (sample_barrier + Target.pauli + RecordFidelity) for end-of-circuit <P>; served by the law after J-b2 (decision 9)",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR",
+    "M-EXPREF"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "twirl_sample_c",
+   "old": "a881d4371960596d",
+   "new": "3104612d6982408e",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  },
+  {
+   "corpus": "core",
+   "circuit": "tests/data/ja_seed23.stim",
+   "surface": "rf_ref",
+   "old": "REFUSED RuntimeError: twirl sampler oracle abort during sample_barrier (details on stderr; state retention requires a diagonal-class circuit)",
+   "new": "4fd4b0986dd1ef12",
+   "mechanisms": [
+    "M-PPR",
+    "M-EXACT",
+    "M-DECPPR"
+   ]
+  }
+ ],
+ "repinned_literals": [
+  {
+   "file": "tests/test_barrier_refusal.py",
+   "line": 1,
+   "provenance": "\"\"\"E1 (fix/barrier-refuse), RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness."
+  },
+  {
+   "file": "tests/test_diagnose_state_route.py",
+   "line": 46,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness: a circuit with no detector / decision"
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 243,
+   "provenance": "theorem) it cannot move; the first still can. RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal ->"
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 264,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness (plan \u00a75.3): the X/Y-type feedback from a"
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 621,
+   "provenance": "the legacy engine refused naming the representation limit. RE-PINNED 2026-10-20 (J-b1), refusal -> exactness.\"\"\""
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 634,
+   "provenance": "only feedback #0). RE-PINNED 2026-10-20 (J-b1), refusal -> exactness: served, dense-exact per record class.\"\"\""
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 641,
+   "provenance": "RE-PINNED 2026-10-20 (J-b1), refusal -> exactness.\"\"\""
+  },
+  {
+   "file": "tests/test_feedback_after_t.py",
+   "line": 678,
+   "provenance": "name on the legacy engine, naming the shared wire). RE-PINNED 2026-10-20 (J-b1), refusal -> exactness.\"\"\""
+  },
+  {
+   "file": "tests/test_ja_frames.py",
+   "line": 226,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness (plan \u00a75.3 test_ja_frames.py:228-238;"
+  },
+  {
+   "file": "tests/test_keyed_streams.py",
+   "line": 16,
+   "provenance": "the GAUGE stream is not drawn), RE-PINNED 2026-10-20 (J-b1, ENGINE_VERSION xtim-engine-13): M-GAUGE;"
+  },
+  {
+   "file": "tests/test_keyed_streams.py",
+   "line": 57,
+   "provenance": "assert _x.ENGINE_VERSION == \"xtim-engine-13\" # RE-PINNED 2026-10-20 (J-b1, xtim-engine-13): M-VER"
+  },
+  {
+   "file": "tests/test_plan_payload_budget.py",
+   "line": 170,
+   "provenance": "# RE-PINNED 2026-10-20 (J-b1 F): resident plans are reused by the readers (P12 F3), so the unbounded sampler's"
+  },
+  {
+   "file": "tests/test_plan_payload_budget.py",
+   "line": 220,
+   "provenance": "# RE-PINNED 2026-10-20 (J-b1 F, layout 3): the readers resolve a kind-0 content to the sampler's RESIDENT plan"
+  },
+  {
+   "file": "tests/test_port_basic.py",
+   "line": 131,
+   "provenance": "\"\"\"PORT-03, RE-PINNED 2026-10-20 (J-b1, xtim-engine-13; M-DECPPR), refusal -> exactness: ch_cultivation with"
+  },
+  {
+   "file": "tests/test_port_basic.py",
+   "line": 402,
+   "provenance": "\"\"\"PORT-16, RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness: the raw cube_ccz.stim has ZERO"
+  },
+  {
+   "file": "tests/test_port_groups.py",
+   "line": 240,
+   "provenance": "\"\"\"PG-08, RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness (plan \u00a75.3 test_port_groups.py:319-338;"
+  },
+  {
+   "file": "tests/test_record_fidelity.py",
+   "line": 535,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness (plan \u00a75.3; M-FRAME): an input_pauli frame"
+  },
+  {
+   "file": "tests/test_record_fidelity.py",
+   "line": 570,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13), refusal -> exactness (plan \u00a75.3; M-DECPPR): a Born-class DECISION"
+  },
+  {
+   "file": "tests/test_record_report.py",
+   "line": 15,
+   "provenance": "RE-PINNED 2026-10-20 (J-b1, xtim-engine-13): M-MEMCTR / M-API \u2014 the family sampler has no exact route (no"
+  },
+  {
+   "file": "tests/test_refusal_design_inputs.py",
+   "line": 44,
+   "provenance": "\"\"\"The repro is in scope: records sample, and the shots really take the PPR (kind-2) route. RE-PINNED 2026-10-20"
+  },
+  {
+   "file": "tests/test_refusal_design_inputs.py",
+   "line": 76,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13): M-ANTI \u2014 the ANTI detector is served (it was refused by name)"
+  },
+  {
+   "file": "tests/test_twirl_audit_sampling.py",
+   "line": 241,
+   "provenance": "# RE-PINNED 2026-10-20 (J-b1, xtim-engine-13): M-EXACT / M-PPR \u2014 the KF2 shots the legacy sampler sent to"
+  },
+  {
+   "file": "tests/test_twirl_decision_detector_sampler.py",
+   "line": 309,
+   "provenance": "\"\"\"RE-PINNED 2026-10-20 (J-b1, xtim-engine-13): M-DECPPR \u2014 a Born-class DECISION on a CH/PPR circuit is SERVED"
+  },
+  {
+   "file": "tests/test_twirl_factory_kappa.py",
+   "line": 57,
+   "provenance": "\"\"\"Every shot is a plan-path shot: kappa>=2 is not a fallback reason any more. RE-PINNED 2026-10-20 (J-b1,"
+  }
+ ],
+ "owner_decisions": {
+  "OD-2026-10-19-jb1-switchover-presigned": "pre-signed",
+  "OD-2026-10-20-materialize-peak": "WITHDRAWN (r2 restores the one-state peak; the r6.6 pin passes unchanged)"
+ },
+ "rulings": [
+  "fixplan-F-materialize-c0hat r2",
+  "fixplan-F-c0hat-capacity (B)",
+  "fixplan-F-branch-readers",
+  "rp2_det cold harness (2)"
+ ],
+ "timing_final": {
+  "tip": "94c21c1",
+  "base": "b9c2e92",
+  "rounds": 3,
+  "components": {
+   "cold/color5_det": {
+    "unit": "us_per_shot",
+    "base": 8.861740380525589,
+    "tip": 7.535366594791412,
+    "ratio": 0.8541113508329773,
+    "ci95": [
+     0.8390970139728577,
+     0.8693943459144886
+    ]
+   },
+   "cold_plain/color5_det": {
+    "unit": "us_per_shot",
+    "base": 9.123074166476727,
+    "tip": 7.792688503861427,
+    "ratio": 0.8594823809655424,
+    "ci95": [
+     0.8515248466239982,
+     0.8675142787893126
+    ]
+   },
+   "cold/rp2_det": {
+    "unit": "us_per_shot",
+    "base": 8.62728962302208,
+    "tip": 9.011385329067707,
+    "ratio": 1.0448298970936698,
+    "ci95": [
+     1.040939598324044,
+     1.0487347350589813
+    ]
+   },
+   "cold_plain/rp2_det": {
+    "unit": "us_per_shot",
+    "base": 9.189507693052292,
+    "tip": 9.499100245535374,
+    "ratio": 1.0313055196989713,
+    "ci95": [
+     1.0229226325485505,
+     1.039757104906059
+    ]
+   },
+   "cold/color5_fid": {
+    "unit": "us_per_shot",
+    "base": 25.299181431531906,
+    "tip": 9.892626166343689,
+    "ratio": 0.38875839368239146,
+    "ci95": [
+     0.38294969687796854,
+     0.3946551985564663
+    ]
+   },
+   "cold_plain/color5_fid": {
+    "unit": "us_per_shot",
+    "base": 25.642052575945854,
+    "tip": 10.18827061355114,
+    "ratio": 0.3948294072112379,
+    "ci95": [
+     0.3896727781194151,
+     0.4000542751564877
+    ]
+   },
+   "cold/rp2_fid": {
+    "unit": "us_per_shot",
+    "base": 31.02629841119051,
+    "tip": 12.569065272808075,
+    "ratio": 0.4034232023090081,
+    "ci95": [
+     0.40016240198944947,
+     0.4067105738873136
+    ]
+   },
+   "cold_plain/rp2_fid": {
+    "unit": "us_per_shot",
+    "base": 31.551459483802322,
+    "tip": 13.013947509229183,
+    "ratio": 0.40530568303571424,
+    "ci95": [
+     0.39436526656318266,
+     0.41654960674567454
+    ]
+   },
+   "cold/fac": {
+    "unit": "us_per_shot",
+    "base": 48.44886340200901,
+    "tip": 42.973902970552444,
+    "ratio": 0.8907834705082409,
+    "ci95": [
+     0.8815333804034553,
+     0.900130623491017
+    ]
+   },
+   "cold_plain/fac": {
+    "unit": "us_per_shot",
+    "base": 49.53381910920143,
+    "tip": 43.80418285727501,
+    "ratio": 0.8922519091586798,
+    "ci95": [
+     0.8731539198691283,
+     0.9117676176917737
+    ]
+   },
+   "cold/ccz_f3": {
+    "unit": "us_per_shot",
+    "base": 89.80236664414406,
+    "tip": 73.73646311461926,
+    "ratio": 0.8227884300654117,
+    "ci95": [
+     0.8193365893616489,
+     0.8262548132714854
+    ]
+   },
+   "cold_plain/ccz_f3": {
+    "unit": "us_per_shot",
+    "base": 92.61144407093525,
+    "tip": 74.96260195970535,
+    "ratio": 0.8113290090907336,
+    "ci95": [
+     0.8073565501865476,
+     0.8153210137950272
+    ]
+   },
+   "t_fid/color5": {
+    "unit": "us_per_shot",
+    "base": 25.35897359251976,
+    "tip": 9.548286199569702,
+    "ratio": 0.3764955104297951,
+    "ci95": [
+     0.3697560621672165,
+     0.38335779687552013
+    ]
+   },
+   "t_fid/rp2": {
+    "unit": "us_per_shot",
+    "base": 30.99860653281212,
+    "tip": 11.953232437372208,
+    "ratio": 0.3865462901057339,
+    "ci95": [
+     0.3848251967222718,
+     0.3882750809124932
+    ]
+   },
+   "t_fid/d5b": {
+    "unit": "us_per_shot",
+    "base": 34.60612893104553,
+    "tip": 14.49592411518097,
+    "ratio": 0.4177274640921221,
+    "ci95": [
+     0.414473483639869,
+     0.42100699114554896
+    ]
+   },
+   "t_fid/fac": {
+    "unit": "us_per_shot",
+    "base": 67.9718367755413,
+    "tip": 17.154309898614883,
+    "ratio": 0.2513474034439386,
+    "ci95": [
+     0.24870821016290115,
+     0.254014602801535
+    ]
+   },
+   "api/frames_d3/cold": {
+    "unit": "us_per_row",
+    "base": 0.24438761174678802,
+    "tip": 0.07445141673088074,
+    "ratio": 0.30444324417647006,
+    "ci95": [
+     0.3036948207817226,
+     0.30519351198060307
+    ]
+   },
+   "api/frames_d3/warm": {
+    "unit": "us_per_row",
+    "base": 0.05789436399936676,
+    "tip": 0.00018104910850524902,
+    "ratio": 0.0032423300522483847,
+    "ci95": [
+     0.0028832783674287684,
+     0.0036460940734931416
+    ]
+   },
+   "api/frames_d5/cold": {
+    "unit": "us_per_row",
+    "base": 17.30974167585373,
+    "tip": 6.214363873004913,
+    "ratio": 0.3591352520443652,
+    "ci95": [
+     0.3587062164814337,
+     0.35956480076125336
+    ]
+   },
+   "api/frames_d5/warm": {
+    "unit": "us_per_row",
+    "base": 0.871846079826355,
+    "tip": 0.00033192336559295654,
+    "ratio": 0.00037009626439249584,
+    "ci95": [
+     0.000342178753671654,
+     0.00040029149515435523
+    ]
+   },
+   "api/frames_d15/cold": {
+    "unit": "us_per_row",
+    "base": 0.022288784384727478,
+    "tip": 0.011612102389335632,
+    "ratio": 0.5153462337774546,
+    "ci95": [
+     0.50787306311633,
+     0.5229293694746999
+    ]
+   },
+   "api/frames_d15/warm": {
+    "unit": "us_per_row",
+    "base": 0.018895044922828674,
+    "tip": 9.201467037200928e-05,
+    "ratio": 0.0048231323302182355,
+    "ci95": [
+     0.004523772704976638,
+     0.005142302010267892
+    ]
+   },
+   "api/frames_fac/cold": {
+    "unit": "us_per_row",
+    "base": 38.27599100768566,
+    "tip": 4.270815849304199,
+    "ratio": 0.11243098787517929,
+    "ci95": [
+     0.1107184119716324,
+     0.1141700536476936
+    ]
+   },
+   "api/frames_fac/warm": {
+    "unit": "us_per_row",
+    "base": 0.9100422263145447,
+    "tip": 0.0003691762685775757,
+    "ratio": 0.00038529411936332933,
+    "ci95": [
+     0.00034345915074291414,
+     0.0004322247874160801
+    ]
+   },
+   "api/materialize_d5": {
+    "unit": "us_per_call",
+    "base": 161.86434775590897,
+    "tip": 162.0013639330864,
+    "ratio": 1.0015863831898009,
+    "ci95": [
+     0.9999726884559035,
+     1.003202682005514
+    ]
+   },
+   "api/pe_all_d5": {
+    "unit": "us_per_call",
+    "base": 163.24039548635483,
+    "tip": 163.00920397043228,
+    "ratio": 0.9997989256560801,
+    "ci95": [
+     0.9958090945032505,
+     1.0038047425562944
+    ]
+   },
+   "api/materialize_fac": {
+    "unit": "us_per_call",
+    "base": 1271.6565281152725,
+    "tip": 1279.2153656482697,
+    "ratio": 1.0198633750895663,
+    "ci95": [
+     0.9849827632776698,
+     1.0559791933697706
+    ]
+   },
+   "api/pe_all_fac": {
+    "unit": "us_per_call",
+    "base": 956.8340703845024,
+    "tip": 946.9910338521004,
+    "ratio": 0.9888797531746629,
+    "ci95": [
+     0.9877619083541829,
+     0.989998863054093
+    ]
+   },
+   "ns_draw/uniform": {
+    "unit": "ns_per_draw",
+    "base": 1.08246,
+    "tip": 1.08218,
+    "ratio": 0.9998829816416538,
+    "ci95": [
+     0.9995495717462911,
+     1.0002165027492678
+    ]
+   },
+   "ns_draw/word": {
+    "unit": "ns_per_draw",
+    "base": 0.41033,
+    "tip": 0.41036,
+    "ratio": 1.0000812377382542,
+    "ci95": [
+     1.0000118311358794,
+     1.0001506491578485
+    ]
+   },
+   "ns_draw/noise": {
+    "unit": "ns_per_draw",
+    "base": 1.19776,
+    "tip": 1.19793,
+    "ratio": 1.0001864715342765,
+    "ci95": [
+     1.0000737982757775,
+     1.0002991574871016
+    ]
+   },
+   "ns_draw/position": {
+    "unit": "ns_per_draw",
+    "base": 0.20146,
+    "tip": 0.20147,
+    "ratio": 1.0000661692953101,
+    "ci95": [
+     0.9999803952717962,
+     1.0001519506761514
+    ]
+   }
+  }
+ },
+ "ledger_ir_note": "see the .md \u00a78.2 (Ir per shot; engine ad5d6f0; t_row/d3b call-count mechanism; t_pprbuild report-only overage)",
+ "post_F_commits": [
+  "ad5d6f0 docs merge",
+  "6c22a48 MUT-AUTO-FALLBACK test",
+  "0826a2f + 94c21c1 UBSan empty-vector fixes (byte-identical)"
+ ],
+ "refusal_census": {
+  "texts": 12293,
+  "old_accepts_F_refuses": "the 4 declared M-NC fixtures",
+  "newly_served": 6,
+  "adaptq": "811/811 served",
+  "ftqcp": "438/438 served"
+ }
+}

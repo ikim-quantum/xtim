@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+wheelhouse/
+.xtim_cache/
+.venv/
+
+# private fixtures (not distributed; tests that need them skip when absent)
+tests/private/
