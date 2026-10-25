@@ -1,0 +1,41 @@
+# H-eigenstate cultivation (protocol shape): the raw physical magic state starts in
+# T-form (T is the gate set's only single-qubit non-Clifford) and is Clifford-ALIGNED
+# onto the Hadamard axis before the checks:
+#     |H> = (H S H) T H |0>      Bloch (1/sqrt2, 0, 1/sqrt2), the +1 eigenstate of H.
+# Each round measures logical H via a Hadamard test (ancilla |+>, CH onto the data,
+# MX ancilla). Because the data is an H-EIGENSTATE, the prep-T's folded magic axis and
+# the CH's folded magic axes COINCIDE (all X_d in the input frame) -> commuting magic,
+# chi = 2 (the noiseless ancillas never entangle: CH|+>|H> = |+>|H>), and every check
+# detector is noiselessly deterministic (postselectable). Feeding the UNALIGNED T-state
+# into CH instead is non-commuting magic and rejects -- the class boundary enforces the
+# protocol's alignment requirement.
+# Noise before each CH forces error-carrying shots through the general (CH-class) path.
+H 0
+T 0
+H 0
+S 0
+H 0
+# round 1
+H 1
+X_ERROR(0.001) 0 1
+Z_ERROR(0.001) 0
+CH 1 0
+MX 1
+DETECTOR rec[-1]
+# round 2
+H 2
+X_ERROR(0.001) 0 2
+Z_ERROR(0.001) 0
+CH 2 0
+MX 2
+DETECTOR rec[-1]
+# round 3
+H 3
+X_ERROR(0.001) 0 3
+Z_ERROR(0.001) 0
+CH 3 0
+MX 3
+DETECTOR rec[-1]
+# the payload: the cultivated H-eigenstate's Bloch vector (1/sqrt2, 0, 1/sqrt2)
+PAULI_EXPECTATION(0) X0
+PAULI_EXPECTATION(1) Z0
