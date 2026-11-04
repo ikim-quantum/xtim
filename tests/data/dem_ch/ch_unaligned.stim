@@ -1,0 +1,8 @@
+# the UNALIGNED T-state fed into CH: non-commuting magic, must still reject (class boundary unchanged)
+H 0
+T 0
+H 1
+X_ERROR(0.001) 0 1
+CH 1 0
+MX 1
+DETECTOR rec[-1]
