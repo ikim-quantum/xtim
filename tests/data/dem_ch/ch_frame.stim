@@ -1,0 +1,16 @@
+# a Bell-pair frame read on the data: the column's declared frame record is a CH-ancilla read
+H 0
+T 0
+H 0
+S 0
+H 0
+H 1
+DEPOLARIZE1(0.001) 0 1
+CH 1 0
+MX 1
+DETECTOR rec[-1]
+H 2
+DEPOLARIZE1(0.001) 0
+CH 2 0
+MX 2
+PAULI_EXPECTATION(0) X0 rec[-1]
