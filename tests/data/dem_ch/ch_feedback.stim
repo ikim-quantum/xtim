@@ -1,0 +1,18 @@
+# a COHERENTIZED feedback (CZ rec[-1] 0, its Pauli crosses the second CH): a gate in the deferred stream, exports
+H 0
+T 0
+H 0
+S 0
+H 0
+H 1
+X_ERROR(0.001) 0 1
+CH 1 0
+MX 1
+DETECTOR rec[-1]
+R 2
+M 2
+CZ rec[-1] 0
+H 3
+CH 3 0
+MX 3
+DETECTOR rec[-1]

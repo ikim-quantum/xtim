@@ -1,0 +1,601 @@
+# c14_xtim_tests_4ed3bd212d7ad890
+T_DAG 0
+T_DAG 0
+S_DAG 0
+T 0
+X_ERROR(0.01) 1 0
+X_ERROR(0.01) 1
+M 1
+T 1
+H 1
+Z_ERROR(0.01) 0
+T 1
+X_ERROR(0.01) 0
+Z 0
+CZ rec[-1] 1
+Z_ERROR(0.01) 1 0
+T_DAG 1
+H 0
+X 0
+M 0
+OBSERVABLE_INCLUDE(0) rec[-1] rec[-2]
+DECISION(0) rec[-2]
+PAULI_EXPECTATION(0) Y1
+
+# c14_xtim_tests_d33d92e71604d8c9
+RX 0
+RY 1
+Z_ERROR(0.01) 0
+Y_ERROR(0.01) 0 1
+CX 1 0
+M 1
+Y_ERROR(0.01) 1
+DEPOLARIZE1(0.01) 1 0
+S 0
+S_DAG 0
+CZ rec[-1] 0
+CS 0 1
+H_YZ 0
+CX rec[-1] 0
+SQRT_X 0
+H 0
+CY 1 0
+S 1
+H_YZ 0
+SQRT_X 1
+T_DAG 1
+T_DAG 1
+MX 1
+M 1
+DETECTOR rec[-2]
+DETECTOR rec[-3] rec[-2] rec[-1]
+DETECTOR rec[-2] rec[-3] rec[-1]
+OBSERVABLE_INCLUDE(0) rec[-3] rec[-1]
+DECISION(0) rec[-3] rec[-2]
+DECISION(1) rec[-3] rec[-1] rec[-2]
+DECISION(2) rec[-3] rec[-1]
+PAULI_EXPECTATION(0) Y0 rec[-3]
+
+# c14_fuzz_068b5f9377e2b55b
+RX 0 1
+CX 1 0
+CS 0 1
+X 0
+CS_DAG 0 1
+S_DAG 1
+X_ERROR(0.1) 1
+T 0
+H 1
+X_ERROR(0.1) 0
+CS 0 1
+H 1
+CX 1 0
+CS_DAG 0 1
+CS_DAG 0 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_902d13d846b07d4c
+RX 0 1
+Y_ERROR(0.1) 0
+T 0
+T 0
+Z 0
+X_ERROR(0.1) 1
+H 0
+CX 0 1
+CS 1 0
+H 0
+S 0
+H 0
+CS_DAG 1 0
+CS 1 0
+T_DAG 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_ac5c574ee83d6057
+RX 0 1
+S_DAG 1
+S_DAG 1
+DEPOLARIZE1(0.1) 1
+CS 0 1
+S_DAG 1
+S_DAG 0
+H 0
+CS_DAG 0 1
+CS_DAG 0 1
+CX 1 0
+Y_ERROR(0.1) 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_b86e7ffa9fc73931
+RX 0 1
+X 0
+DEPOLARIZE1(0.1) 1
+CS_DAG 1 0
+Y_ERROR(0.1) 0
+CZ 1 0
+H 0
+S_DAG 0
+CS_DAG 1 0
+CS_DAG 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_b9b62b0f9ae84f63
+RX 0 1
+Y_ERROR(0.1) 1
+H 0
+Y_ERROR(0.1) 1
+CS 0 1
+S_DAG 0
+H 0
+Y_ERROR(0.1) 1
+CX 1 0
+T_DAG 1
+CS_DAG 1 0
+S 1
+CZ 1 0
+CS_DAG 0 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_c02da0f24c7e1966
+RX 0 1
+T 0
+DEPOLARIZE1(0.1) 0
+Z 0
+Z 0
+X_ERROR(0.1) 1
+Z_ERROR(0.1) 0
+CZ 0 1
+CS_DAG 0 1
+H 1
+S_DAG 1
+S_DAG 0
+Z 1
+CS 1 0
+CS 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_d7d900858960ca9f
+RX 0 1
+Y_ERROR(0.1) 0
+CS_DAG 0 1
+X_ERROR(0.1) 0
+CZ 0 1
+Y_ERROR(0.1) 1
+H 0
+Y_ERROR(0.1) 0
+H 1
+CS 0 1
+CS 1 0
+S_DAG 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_12ea29fc9146bac5
+RX 0 1
+H 1
+Z 1
+S_DAG 1
+DEPOLARIZE1(0.1) 1
+CS_DAG 0 1
+Y_ERROR(0.1) 0
+S_DAG 0
+H 0
+CS 0 1
+CS_DAG 0 1
+Z_ERROR(0.1) 0
+S_DAG 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_2eac8c81556debf9
+RX 0 1
+X_ERROR(0.1) 0
+CS 0 1
+S_DAG 1
+X 0
+S_DAG 0
+X 1
+Y_ERROR(0.1) 0
+X_ERROR(0.1) 1
+H 0
+CS_DAG 0 1
+CS 1 0
+S_DAG 0
+DEPOLARIZE1(0.1) 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_46712cb467533bf2
+RX 0 1
+X_ERROR(0.1) 1
+T_DAG 1
+H 1
+T_DAG 1
+CZ 1 0
+T 1
+Y_ERROR(0.1) 1
+S_DAG 0
+S 1
+Z 0
+Z 1
+S_DAG 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_483c6a4f9d769204
+RX 0 1
+Z 1
+X_ERROR(0.1) 1
+T_DAG 1
+DEPOLARIZE1(0.1) 1
+H 1
+CS 1 0
+X 1
+S_DAG 0
+X 0
+CS 0 1
+H 0
+Y_ERROR(0.1) 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_4c2a6fb20e0918d4
+RX 0 1
+DEPOLARIZE1(0.1) 0
+X 1
+T 1
+CS 0 1
+S 0
+H 0
+CS 0 1
+CS_DAG 0 1
+Y_ERROR(0.1) 0
+Z 1
+X 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_5be43b7e59c6c488
+RX 0 1
+Y_ERROR(0.1) 1
+CS 0 1
+S 0
+X 0
+H 0
+T_DAG 1
+CS 0 1
+CX 1 0
+Z_ERROR(0.1) 0
+Z_ERROR(0.1) 1
+CS 1 0
+Y_ERROR(0.1) 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_6ebf02dfdf946bac
+RX 0 1
+T_DAG 1
+X 1
+S_DAG 0
+X 0
+X 0
+DEPOLARIZE1(0.1) 0
+X 1
+CS 0 1
+S_DAG 1
+X 0
+H 0
+CS 1 0
+S_DAG 1
+CS 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_714dad74a73d0012
+RX 0 1
+DEPOLARIZE1(0.1) 1
+H 0
+T 1
+Y_ERROR(0.1) 1
+H 1
+S_DAG 1
+T 0
+CS_DAG 0 1
+Z_ERROR(0.1) 1
+S_DAG 0
+T 0
+T_DAG 0
+CS_DAG 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_7583bd7ff8c6b6a5
+RX 0 1
+X 0
+X_ERROR(0.1) 1
+CS_DAG 0 1
+CX 1 0
+CZ 1 0
+S 1
+T_DAG 1
+X 1
+H 0
+Z 1
+CS 1 0
+CS_DAG 0 1
+H 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_79e5fd0da9b0067b
+RX 0 1
+CX 1 0
+Y_ERROR(0.1) 1
+T 0
+DEPOLARIZE1(0.1) 1
+S 0
+X 1
+CZ 1 0
+CS_DAG 0 1
+H 1
+T 1
+T_DAG 1
+Y_ERROR(0.1) 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_82638eff2bd01827
+RX 0 1
+CZ 1 0
+S_DAG 1
+CZ 0 1
+Z 1
+X_ERROR(0.1) 1
+CS 1 0
+Z_ERROR(0.1) 1
+H 0
+CS 1 0
+CS 1 0
+Y_ERROR(0.1) 0
+S_DAG 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_838270f3d7ab6cfe
+RX 0 1
+H 0
+DEPOLARIZE1(0.1) 0
+CS 0 1
+DEPOLARIZE1(0.1) 1
+H 0
+CS_DAG 1 0
+CS_DAG 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_a1ba97ef637630bb
+RX 0 1
+Y_ERROR(0.1) 0
+Z 1
+X 0
+Z_ERROR(0.1) 1
+X_ERROR(0.1) 0
+CZ 0 1
+X 1
+CS 1 0
+H 1
+CX 1 0
+CX 1 0
+X 1
+T_DAG 1
+T_DAG 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_b51239e3441f35e3
+RX 0 1
+X 0
+Z_ERROR(0.1) 1
+Z 1
+DEPOLARIZE1(0.1) 1
+CX 1 0
+CS 1 0
+H 0
+CS_DAG 1 0
+S 1
+CS_DAG 0 1
+CZ 0 1
+Z 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_c91276d681adc2f1
+RX 0 1
+Z 0
+H 1
+Y_ERROR(0.1) 0
+T_DAG 0
+X 0
+CX 0 1
+H 0
+Y_ERROR(0.1) 1
+CS 0 1
+S 1
+CS_DAG 0 1
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_d17ad2e4865559b9
+RX 0 1
+CS_DAG 1 0
+CS 0 1
+T 1
+Y_ERROR(0.1) 0
+T 1
+CS 0 1
+H 0
+X 0
+S 0
+T 0
+T 0
+Z 0
+CX 1 0
+X_ERROR(0.1) 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_ddb3d71caadc95b0
+RX 0 1
+T 0
+S_DAG 0
+CZ 1 0
+S_DAG 0
+X_ERROR(0.1) 1
+CS 0 1
+S 1
+X 0
+H 1
+CZ 0 1
+CS_DAG 0 1
+S 0
+CS 1 0
+MX 0 1
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_e298d2c039a00baa
+RX 0 1 2
+Z 1
+DEPOLARIZE1(0.1) 2
+CS_DAG 2 0
+H 0
+CS 0 2
+CZ 0 2
+S 0
+Z_ERROR(0.1) 0
+Z 1
+Y_ERROR(0.1) 1
+CS 2 0
+MX 0 1 2
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_fb603134822d770f
+RX 0 1 2
+CS 0 2
+CX 0 2
+X_ERROR(0.1) 1
+CS 1 0
+Z_ERROR(0.1) 2
+Y_ERROR(0.1) 2
+H 0
+T 0
+S_DAG 1
+T 0
+X 0
+S 1
+CS_DAG 0 1
+CS 1 0
+MX 0 1 2
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
+
+# c14_fuzz_fd27fcfcb28422b4
+RX 0 1 2
+Y_ERROR(0.1) 0
+T_DAG 2
+T_DAG 2
+T_DAG 0
+H 2
+H 0
+S 2
+CS_DAG 0 1
+X 1
+CS_DAG 1 0
+MX 0 1 2
+R 9
+X_ERROR(0.1) 9
+M 9
+DETECTOR rec[-1]
