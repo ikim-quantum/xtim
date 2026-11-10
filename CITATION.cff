@@ -1,0 +1,15 @@
+# Citation metadata for the xtim software release.
+# NOTE: this file cites the software itself. It will be updated to point at the
+# accompanying preprint (via `preferred-citation`) when that preprint appears;
+# until then, please cite the software release below.
+cff-version: 1.2.0
+message: "If you use xtim in your research, please cite it as below."
+type: software
+title: "xtim"
+authors:
+  - family-names: "Kim"
+    given-names: "Isaac H."
+version: "4.1.2"
+date-released: "2026-11-10"
+repository-code: "https://github.com/ikim-quantum/xtim"
+license: MIT
