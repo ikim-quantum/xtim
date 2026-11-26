@@ -1,0 +1,23 @@
+# lean N1 fixture: null alternatives (Z before a Z measurement), identical-record alternatives (X / Y before it), a forced
+# channel (p = 1), a 0.75 channel, a zero-p alternative, two-qubit depolarizing, mixed p, readout noise and an observable.
+R 0 1 2 3 4 5
+X_ERROR(1) 4
+H 0
+CX 0 1
+DEPOLARIZE1(0.75) 2
+PAULI_CHANNEL_1(0.1, 0, 0.2) 1
+DEPOLARIZE2(0.03) 0 1
+DEPOLARIZE2(0.02) 2 3
+PAULI_CHANNEL_2(0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.004, 0, 0, 0, 0.003) 3 5
+Z_ERROR(0.05) 3
+X_ERROR(0.001) 3
+DEPOLARIZE1(0.01) 0 1 2 3 5
+CX 2 5
+M 0 1 2 3 4
+M(0.02) 5
+DETECTOR rec[-6] rec[-5]
+DETECTOR rec[-4]
+DETECTOR rec[-3]
+DETECTOR rec[-2]
+DETECTOR rec[-4] rec[-1]
+OBSERVABLE_INCLUDE(0) rec[-4]

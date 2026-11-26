@@ -1,0 +1,35 @@
+# Source-distribution completeness: a `pip install` from the sdist tarball must
+# carry every C++ source/header the extension compiles (the package wheel ships
+# only xtim/*.py + the compiled _xtim, so these are build inputs, not runtime).
+graft cpp/src
+graft cpp/include
+include cpp/bindings/xtim_py.cpp
+include cpp/bindings/*.hpp
+# The test API (cpp/testapi, + cpp/apps it #includes) is not distributed: _xtim never includes it
+# (family_sampler.hpp's testapi #include is under XTIM_FAMILY_TESTAPI, defined only by the test API).
+
+include LICENSE
+include THIRD_PARTY_NOTICES.md
+recursive-include LICENSES *
+include README.md
+include CHANGELOG.md
+include CITATION.cff
+include smoke_test.py
+recursive-include tests *.py
+recursive-include docs *.md
+# Internal pages that are not part of the public tree (RELEASING.md "Documented exclusions").
+prune docs/superpowers
+prune docs/repin
+exclude docs/dem_export_readout_noise.md
+recursive-include benchmarks *.stim
+prune benchmarks/ledger
+prune benchmarks/fastpath_replay
+# Examples must include the runnable .py scripts that the docs tell users to
+# run — not just the .stim circuits, the .xdem files and the READMEs.
+recursive-include examples *.stim *.md *.py *.xdem
+
+# CI configuration (.github/, in the public tree from 4.2.1) is not a build input.
+prune .github
+
+global-exclude *.so
+global-exclude __pycache__/*

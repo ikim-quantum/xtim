@@ -1,0 +1,26 @@
+S 0
+H 0
+S 0
+CX 0 1
+H 0
+CX 0 2
+S_DAG 2
+CCZ 0 1 2
+CS 1 0
+CZ 1 2
+H 1
+CX 0 2
+S_DAG 0
+CZ 2 1
+CX 1 0
+R 3 4
+H 3
+CX 3 4
+CX 1 3
+H 1
+M 1 3
+CX rec[-1] 4
+CZ rec[-2] 4
+SWAP 1 4
+R 3 4
+# OUT 1

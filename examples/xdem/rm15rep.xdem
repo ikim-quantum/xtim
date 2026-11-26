@@ -1,0 +1,75 @@
+xdem 1 detectors 10 observables 2 gauge 10 hidden 12 tc 40
+axis Q0 img D2 L0 L1 gauge g0
+axis Q1 img D3 L0 L1 gauge g1
+axis Q2 img D2 D3 L0 L1 gauge g2
+axis Q3 img D4 L0 L1 gauge g3
+axis Q4 img D2 D4 L0 L1 gauge g1 g2 g3 hidden h0
+axis Q5 img D3 D4 L0 L1 gauge g0 g2 g3 hidden h1
+axis Q6 img D2 D3 D4 L0 L1 gauge g0 g1 g3 hidden h2
+axis Q7 img D5 L0 L1 gauge g4
+axis Q8 img D2 D5 L0 L1 gauge g1 g2 g4 hidden h3
+axis Q9 img D3 D5 L0 L1 gauge g0 g2 g4 hidden h4
+axis Q10 img D2 D3 D5 L0 L1 gauge g0 g1 g4 hidden h5
+axis Q11 img D4 D5 L0 L1 gauge g0 g1 g2 g3 g4 hidden h6
+axis Q12 img D2 D4 D5 L0 L1 gauge g0 g3 g4 hidden h7
+axis Q13 img D3 D4 D5 L0 L1 gauge g1 g3 g4 hidden h8
+axis Q14 img D2 D3 D4 D5 L0 L1 gauge g2 g3 g4 hidden h9
+axis Q15 img L1 gauge g5
+axis Q16 img L1 gauge g5 hidden h10
+axis Q17 img L1 gauge g5 hidden h11
+axis Q18 img L0 L1 gauge g6
+axis Q19 img L0 L1 gauge g7
+axis Q20 img L0 L1 gauge g0 g1 g2 g6 g7
+axis Q21 img L0 L1 gauge g8
+axis Q22 img L0 L1 gauge g0 g1 g2 g6 g8 hidden h0
+axis Q23 img L0 L1 gauge g0 g1 g2 g7 g8 hidden h1
+axis Q24 img L0 L1 gauge g6 g7 g8 hidden h2
+axis Q25 img L0 L1 gauge g9
+axis Q26 img L0 L1 gauge g0 g1 g2 g6 g9 hidden h3
+axis Q27 img L0 L1 gauge g0 g1 g2 g7 g9 hidden h4
+axis Q28 img L0 L1 gauge g6 g7 g9 hidden h5
+axis Q29 img L0 L1 gauge g0 g1 g2 g8 g9 hidden h6
+axis Q30 img L0 L1 gauge g6 g8 g9 hidden h7
+axis Q31 img L0 L1 gauge g7 g8 g9 hidden h8
+axis Q32 img L0 L1 gauge g0 g1 g2 g6 g7 g8 g9 hidden h9
+error(0.01) D0 x Q15 rot +Q15 late -Q15
+error(0.01) D0 D1 x Q16 rot +Q16 late -Q16
+error(0.01) D1 x Q17 rot +Q17 late -Q17
+error(0.01) D0 D6
+error(0.01) D1 D7
+error(0.0050000000000000001) x Q0 Q18 rot +Q0 late -Q18
+error(0.0050000000000000001) x Q1 Q19 rot +Q1 late -Q19
+error(0.0050000000000000001) x Q2 Q20 rot +Q2 late -Q20
+error(0.0050000000000000001) x Q3 Q21 rot +Q3 late -Q21
+error(0.0050000000000000001) x Q4 Q22 rot +Q4 late -Q22
+error(0.0050000000000000001) x Q5 Q23 rot +Q5 late -Q23
+error(0.0050000000000000001) x Q6 Q24 rot +Q6 late -Q24
+error(0.0050000000000000001) x Q7 Q25 rot +Q7 late -Q25
+error(0.0050000000000000001) x Q8 Q26 rot +Q8 late -Q26
+error(0.0050000000000000001) x Q9 Q27 rot +Q9 late -Q27
+error(0.0050000000000000001) x Q10 Q28 rot +Q10 late -Q28
+error(0.0050000000000000001) x Q11 Q29 rot +Q11 late -Q29
+error(0.0050000000000000001) x Q12 Q30 rot +Q12 late -Q30
+error(0.0050000000000000001) x Q13 Q31 rot +Q13 late -Q31
+error(0.0050000000000000001) x Q14 Q32 rot +Q14 late -Q32
+error(0.0050000000000000001) D2 L0 L1
+error(0.0050000000000000001) D3 L0 L1
+error(0.0050000000000000001) D2 D3 L0 L1
+error(0.0050000000000000001) D4 L0 L1
+error(0.0050000000000000001) D2 D4 L0 L1
+error(0.0050000000000000001) D3 D4 L0 L1
+error(0.0050000000000000001) D2 D3 D4 L0 L1
+error(0.0050000000000000001) D5 L0 L1
+error(0.0050000000000000001) D2 D5 L0 L1
+error(0.0050000000000000001) D3 D5 L0 L1
+error(0.0050000000000000001) D2 D3 D5 L0 L1
+error(0.0050000000000000001) D4 D5 L0 L1
+error(0.0050000000000000001) D2 D4 D5 L0 L1
+error(0.0050000000000000001) D3 D4 D5 L0 L1
+error(0.0050000000000000001) D2 D3 D4 D5 L0 L1
+error(0.01) D6 x Q15 late -Q15
+error(0.01) D6 D7 x Q16 late -Q16
+error(0.01) D7 x Q17 late -Q17
+error(0.01) D6 D8
+error(0.01) D7 D9
+error(0.029404) L1

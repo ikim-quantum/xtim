@@ -1,0 +1,17 @@
+# CH-class residuals + a RESIDUAL (non-coherentized) feedback on a spectator wire -> named refusal
+H 0
+T 0
+H 0
+S 0
+H 0
+H 1
+X_ERROR(0.001) 0 1
+CH 1 0
+MX 1
+DETECTOR rec[-1]
+R 2 4
+X_ERROR(0.001) 2
+M 2
+CX rec[-1] 4
+M 4
+DETECTOR rec[-1]

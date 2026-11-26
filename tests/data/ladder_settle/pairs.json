@@ -1,0 +1,221 @@
+[
+ {
+  "seed": 94,
+  "clifford": true,
+  "n": 2,
+  "A": "CZ 0 1\nT 0\nCZ 0 1\nT 0\nH 1\nX 1\nCZ 1 0\nH_YZ 0\nX 0\nT 0\nT 0\nCX 1 0\n",
+  "B": "CZ 0 1\nCZ 0 1\nS 0\nH 1\nX 1\nCZ 1 0\nH_YZ 0\nX 0\nS 0\nCX 1 0\n",
+  "kinds": [
+   "t_t",
+   "t_diag_t"
+  ]
+ },
+ {
+  "seed": 522,
+  "clifford": true,
+  "n": 3,
+  "A": "H 0\nCX 0 1\nH 1\nCCZ 0 1 2\nCCZ 0 1 2\nH_YZ 2\nCS 2 0\nCS 2 0\n",
+  "B": "H 0\nCX 0 1\nH 1\nH_YZ 2\nCZ 2 0\n",
+  "kinds": [
+   "cs_cs",
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 532,
+  "clifford": true,
+  "n": 5,
+  "A": "CCZ 1 2 3\nCCZ 1 2 3\nX 0\nH 1\nS 2\nCX 1 3\nCZ 1 3\nCCZ 0 3 4\nCCZ 0 3 4\nCZ 4 3\n",
+  "B": "X 0\nH 1\nS 2\nCX 1 3\nCZ 1 3\nCZ 4 3\n",
+  "kinds": [
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 762,
+  "clifford": true,
+  "n": 3,
+  "A": "S 1\nCS 2 0\nCS 2 0\nS 0\nH 0\nCX 2 1\nCZ 2 0\nH 2\nH 1\nT 2\nT 2\n",
+  "B": "S 1\nCZ 2 0\nS 0\nH 0\nCX 2 1\nCZ 2 0\nH 2\nH 1\nS 2\n",
+  "kinds": [
+   "t_t",
+   "cs_cs"
+  ]
+ },
+ {
+  "seed": 1089,
+  "clifford": true,
+  "n": 2,
+  "A": "CZ 0 1\nT_DAG 0\nS 0\nT_DAG 0\nCZ 0 1\nH 0\nCX 1 0\nS 1\nT_DAG 0\nT_DAG 0\n",
+  "B": "CZ 0 1\nS 0\nS_DAG 0\nCZ 0 1\nH 0\nCX 1 0\nS 1\nS_DAG 0\n",
+  "kinds": [
+   "t_t",
+   "t_diag_t"
+  ]
+ },
+ {
+  "seed": 1347,
+  "clifford": true,
+  "n": 2,
+  "A": "Z 1\nH 0\nCS 0 1\nCS 0 1\nH_YZ 0\nS 0\nS_DAG 1\nCS_DAG 1 0\nCS_DAG 1 0\n",
+  "B": "Z 1\nH 0\nCZ 0 1\nH_YZ 0\nS 0\nS_DAG 1\nCZ 1 0\n",
+  "kinds": [
+   "cs_cs"
+  ]
+ },
+ {
+  "seed": 1433,
+  "clifford": true,
+  "n": 3,
+  "A": "CS_DAG 2 1\nCS_DAG 2 1\nCX 1 2\nCH 1 2\nCH 1 2\nCCZ 0 1 2\nCCZ 0 1 2\nH_YZ 0\nT 0\nT 0\n",
+  "B": "CZ 2 1\nCX 1 2\nH_YZ 0\nS 0\n",
+  "kinds": [
+   "ch_ch"
+  ]
+ },
+ {
+  "seed": 1603,
+  "clifford": true,
+  "n": 5,
+  "A": "CCZ 1 2 4\nCCZ 1 2 4\nH_YZ 1\nH_YZ 4\nCS 1 4\nCS 1 4\nH_YZ 1\nCZ 3 2\nH 4\n",
+  "B": "H_YZ 1\nH_YZ 4\nCZ 1 4\nH_YZ 1\nCZ 3 2\nH 4\n",
+  "kinds": [
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 1717,
+  "clifford": true,
+  "n": 2,
+  "A": "CH 1 0\nCH 1 0\nS 0\nT 1\nZ 1\nT 1\nCZ 1 0\nCS 0 1\nCS 0 1\nH 1\nCS 1 0\nCS 1 0\n",
+  "B": "S 0\nZ 1\nS 1\nCZ 1 0\nCZ 0 1\nH 1\nCZ 1 0\n",
+  "kinds": [
+   "t_diag_t",
+   "ch_ch"
+  ]
+ },
+ {
+  "seed": 1943,
+  "clifford": true,
+  "n": 2,
+  "A": "S_DAG 0\nT 1\nT 1\nH 1\nCS_DAG 0 1\nCS_DAG 0 1\nCH 1 0\nCH 1 0\nSQRT_X 1\n",
+  "B": "S_DAG 0\nS 1\nH 1\nCZ 0 1\nSQRT_X 1\n",
+  "kinds": [
+   "ch_ch"
+  ]
+ },
+ {
+  "seed": 3,
+  "clifford": false,
+  "n": 5,
+  "A": "CS 0 4\nCS 0 4\nT 0\nH_YZ 0\nH_YZ 1\nX 0\nCH 4 1\nCH 4 1\nCCZ 0 1 3\nCCZ 0 1 3\n",
+  "B": "CZ 0 4\nT 0\nH_YZ 0\nH_YZ 1\nX 0\n",
+  "kinds": [
+   "ch_ch",
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 184,
+  "clifford": false,
+  "n": 3,
+  "A": "H_YZ 0\nCX 2 1\nT 2\nSQRT_X 2\nT 2\nS 2\nT 2\nH 1\n",
+  "B": "H_YZ 0\nCX 2 1\nT 2\nSQRT_X 2\nS 2\nS 2\nH 1\n",
+  "kinds": [
+   "t_diag_t"
+  ]
+ },
+ {
+  "seed": 483,
+  "clifford": false,
+  "n": 2,
+  "A": "T 1\nCX 1 0\nCX 1 0\nSQRT_X 1\nT 1\nT 1\nH_YZ 0\nZ 0\n",
+  "B": "T 1\nCX 1 0\nCX 1 0\nSQRT_X 1\nS 1\nH_YZ 0\nZ 0\n",
+  "kinds": [
+   "t_t"
+  ]
+ },
+ {
+  "seed": 522,
+  "clifford": false,
+  "n": 3,
+  "A": "H 0\nCX 0 1\nH 1\nCCZ 0 1 2\nCCZ 0 1 2\nH_YZ 2\nCS 2 0\nCS 2 0\n",
+  "B": "H 0\nCX 0 1\nH 1\nH_YZ 2\nCZ 2 0\n",
+  "kinds": [
+   "cs_cs",
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 605,
+  "clifford": false,
+  "n": 2,
+  "A": "CZ 1 0\nS_DAG 1\nCS 1 0\nCS 1 0\nS 1\nH 0\nCS_DAG 1 0\nSQRT_X 0\n",
+  "B": "CZ 1 0\nS_DAG 1\nCZ 1 0\nS 1\nH 0\nCS_DAG 1 0\nSQRT_X 0\n",
+  "kinds": [
+   "cs_cs"
+  ]
+ },
+ {
+  "seed": 619,
+  "clifford": false,
+  "n": 3,
+  "A": "SQRT_X 2\nS 1\nZ 2\nCX 1 2\nT_DAG 2\nH_YZ 2\nS_DAG 2\nT_DAG 2\nT_DAG 2\n",
+  "B": "SQRT_X 2\nS 1\nZ 2\nCX 1 2\nT_DAG 2\nH_YZ 2\nS_DAG 2\nS_DAG 2\n",
+  "kinds": [
+   "t_t"
+  ]
+ },
+ {
+  "seed": 710,
+  "clifford": false,
+  "n": 3,
+  "A": "T 1\nT 1\nCX 2 0\nT 1\nCZ 1 0\nT 1\nH 2\nT 0\nH_YZ 2\nH 0\nH_YZ 0\nT 0\nT 0\n",
+  "B": "S 1\nCX 2 0\nCZ 1 0\nS 1\nH 2\nT 0\nH_YZ 2\nH 0\nH_YZ 0\nS 0\n",
+  "kinds": [
+   "t_diag_t"
+  ]
+ },
+ {
+  "seed": 787,
+  "clifford": false,
+  "n": 5,
+  "A": "CS 0 3\nSQRT_X 3\nSQRT_X 2\nH 3\nT 0\nCZ 2 3\nT 3\nCZ 3 2\nT 3\n",
+  "B": "CS 0 3\nSQRT_X 3\nSQRT_X 2\nH 3\nT 0\nCZ 2 3\nCZ 3 2\nS 3\n",
+  "kinds": [
+   "t_diag_t"
+  ]
+ },
+ {
+  "seed": 1433,
+  "clifford": false,
+  "n": 3,
+  "A": "CS_DAG 2 1\nCS_DAG 2 1\nCX 1 2\nCH 1 2\nCH 1 2\nCCZ 0 1 2\nCCZ 0 1 2\nH_YZ 0\nT 0\nT 0\n",
+  "B": "CZ 2 1\nCX 1 2\nH_YZ 0\nS 0\n",
+  "kinds": [
+   "ccz_ccz"
+  ]
+ },
+ {
+  "seed": 1776,
+  "clifford": false,
+  "n": 2,
+  "A": "Z 1\nT 1\nT 1\nSQRT_X 1\nCH 1 0\nCH 1 0\nCS 1 0\nCS 1 0\n",
+  "B": "Z 1\nS 1\nSQRT_X 1\nCS 1 0\nCS 1 0\n",
+  "kinds": [
+   "t_t",
+   "cs_cs",
+   "ch_ch"
+  ]
+ },
+ {
+  "seed": 1943,
+  "clifford": false,
+  "n": 2,
+  "A": "S_DAG 0\nT 1\nT 1\nH 1\nCS_DAG 0 1\nCS_DAG 0 1\nCH 1 0\nCH 1 0\nSQRT_X 1\n",
+  "B": "S_DAG 0\nS 1\nH 1\nCZ 0 1\nSQRT_X 1\n",
+  "kinds": [
+   "ch_ch"
+  ]
+ }
+]

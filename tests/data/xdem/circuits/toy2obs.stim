@@ -1,0 +1,34 @@
+# loop toy: two rep-3 blocks, transversal T, noisy rounds, readout T_DAG, late Z faults; observables
+# O0 = X0X1X2 and O1 = X0X1X2 (+) X3X4X5, so the T axes of block 0 have an image on both observables.
+RX 0 3
+CX 0 1 0 2 3 4 3 5
+X_ERROR(0.01) 0 1 2 3 4 5
+R 6 7 8 9
+CX 0 6 1 6 1 7 2 7 3 8 4 8 4 9 5 9
+X_ERROR(0.01) 6 7 8 9
+M 6 7 8 9
+DETECTOR rec[-4]
+DETECTOR rec[-3]
+DETECTOR rec[-2]
+DETECTOR rec[-1]
+T 0 1 2 3 4 5
+X_ERROR(0.01) 0 1 2 3 4 5
+R 10 11 12 13
+CX 0 10 1 10 1 11 2 11 3 12 4 12 4 13 5 13
+X_ERROR(0.01) 10 11 12 13
+M 10 11 12 13
+DETECTOR rec[-4] rec[-8]
+DETECTOR rec[-3] rec[-7]
+DETECTOR rec[-2] rec[-6]
+DETECTOR rec[-1] rec[-5]
+MPP Z0*Z1 Z1*Z2 Z3*Z4 Z4*Z5
+DETECTOR rec[-4] rec[-8]
+DETECTOR rec[-3] rec[-7]
+DETECTOR rec[-2] rec[-6]
+DETECTOR rec[-1] rec[-5]
+T_DAG 0 1 2 3 4 5
+Z_ERROR(0.01) 0 1 2 3 4 5
+MPP X0*X1*X2
+MPP X3*X4*X5
+OBSERVABLE_INCLUDE(0) rec[-2]
+OBSERVABLE_INCLUDE(1) rec[-2] rec[-1]

@@ -1,0 +1,461 @@
+[
+ {
+  "name": "undo_g1_23664",
+  "kind": "undo",
+  "text": "S_DAG 2\nH 1\nH_YZ 1\nCZ 1 2\nSQRT_X 2\nCX 2 1\nT_DAG 1\nS_DAG 0\nH 2\nCS_DAG 3 0\nH 3\nS_DAG 0\nT_DAG 2\nT_DAG 1\nH 2\nH 0\nCX 1 3\nSQRT_X 1\nCX 2 1\nH_YZ 3\nSQRT_X 2\nCX 1 0\nCZ 1 2\nSQRT_X 0\nH 2\nH_YZ 1\nT 1\nH_YZ 1\n",
+  "clifford_paulis": [
+   [
+    "Z1",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_1442",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nH 3\nCX 1 0\nCX 2 0\nCX 3 0\nT 0\nCX 3 0\nCX 2 0\nCX 1 0\nT 1\nT_DAG 2\nCX 1 0\nCX 2 0\nCX 3 0\nT_DAG 0\nCX 3 0\nCX 2 0\nCX 1 0\nH 1\nSQRT_X 1\nCX 1 0\nH 0\nCX 1 3\nH 1\nCX 1 0\nT_DAG 0\nCX 1 0\nH 1\n",
+  "clifford_paulis": [
+   [
+    "Y1",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_2339",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 3\nCX 3 0\nT_DAG 0\nCX 3 0\nT 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 3 0\nT 0\nCX 3 0\nCX 1 0\nCX 2 0\nCX 3 0\nT_DAG 0\nCX 3 0\nCX 2 0\nCX 1 0\nCX 0 3\nH_YZ 1\nS_DAG 0\nCX 1 3\nH 0\nCZ 0 1\nCZ 0 2\nCZ 2 1\nCZ 2 1\nCZ 2 3\nCX 0 2\nS_DAG 3\nH 3\nT 3\nH 3\n",
+  "clifford_paulis": [
+   [
+    "Z3",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_4267",
+  "kind": "undo",
+  "text": "H 0\nH 2\nH 3\nCX 3 2\nCX 4 2\nT 2\nCX 4 2\nCX 3 2\nCX 1 2\nCX 4 2\nS 2\nCX 4 2\nCX 1 2\nCX 2 0\nCX 3 0\nCX 4 0\nT 0\nCX 4 0\nCX 3 0\nCX 2 0\nT 1\nCX 4 1\nT_DAG 1\nCX 4 1\nCX 2 0\nCX 3 0\nCX 4 0\nT_DAG 0\nCX 4 0\nCX 3 0\nCX 2 0\nCX 0 3\nH 3\nCZ 2 1\nS_DAG 0\nH_YZ 0\nCX 0 2\nH 0\nH 3\nCX 3 0\nCX 4 0\nT 0\nCX 4 0\nCX 3 0\nH 3\nH 0\n",
+  "clifford_paulis": [
+   [
+    "Z3",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_5228",
+  "kind": "undo",
+  "text": "H 0\nH 1\nS 2\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nT 1\nT 2\nCX 1 0\nT_DAG 0\nCX 1 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 1 0\nT 0\nCX 1 0\nS_DAG 1\nS 1\nH_YZ 1\nCX 2 0\nCZ 1 2\nH 0\nCZ 0 1\nCX 2 1\nH_YZ 1\nT_DAG 1\nH_YZ 1\n",
+  "clifford_paulis": [
+   [
+    "X1",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_6882",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 2 1\nT 1\nCX 2 1\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nT_DAG 1\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCZ 2 0\nS 2\nCX 0 2\nCX 0 2\nS_DAG 0\nSQRT_X 1\nCX 1 0\nH_YZ 2\nH_YZ 0\nS_DAG 0\nCZ 1 2\nH_YZ 1\nCX 0 2\nH_YZ 2\nT_DAG 2\nH_YZ 2\n",
+  "clifford_paulis": [
+   [
+    "X2",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_14054",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nS_DAG 1\nS_DAG 0\nSQRT_X 1\nSQRT_X 0\nCX 1 2\nCZ 2 0\nSQRT_X 1\nS 1\nCZ 1 0\nCX 1 2\nH 1\nCX 0 1\nH_YZ 0\nH 2\nCX 2 0\nT 0\nCX 2 0\nH 2\nH_YZ 0\n",
+  "clifford_paulis": [
+   [
+    "Z0",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_20566",
+  "kind": "undo",
+  "text": "H 1\nH 2\nCX 0 1\nCX 2 1\nS 1\nCX 2 1\nCX 0 1\nCX 0 2\nCX 1 2\nT_DAG 2\nCX 1 2\nCX 0 2\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nH 1\nSQRT_X 0\nS_DAG 1\nCZ 0 1\nCZ 1 2\nH 0\nCZ 1 2\nCX 0 2\nCZ 0 2\nCX 2 1\nS_DAG 2\nCX 0 1\nCX 1 0\nT_DAG 1\n",
+  "clifford_paulis": [
+   [
+    "X1",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_21550",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 2 1\nT_DAG 1\nCX 2 1\nCX 2 1\nS 1\nCX 2 1\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nH 2\nCX 1 2\nCZ 1 0\nCX 1 0\nH_YZ 2\nCX 2 0\nH 2\nT 2\nH 2\n",
+  "clifford_paulis": [
+   [
+    "Y2",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_24797",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nH 3\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nT 0\nSQRT_X 2\nCX 2 0\nS 3\nCX 1 0\nH 2\nCZ 0 1\nS_DAG 1\nH 2\nCX 2 1\nT 1\nCX 2 1\nH 2\n",
+  "clifford_paulis": [
+   [
+    "Z2",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_25052",
+  "kind": "undo",
+  "text": "H 0\nH 2\nCX 1 0\nT_DAG 0\nCX 1 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nT 0\nCX 1 0\nT_DAG 0\nCX 1 0\nT 0\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nCX 1 0\nCZ 0 1\nH_YZ 2\nCX 2 0\nH 1\nS 0\nCZ 1 2\nCZ 2 1\nCX 2 1\nH 0\nT_DAG 0\nH 0\n",
+  "clifford_paulis": [
+   [
+    "Z0",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_28666",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nH 3\nH 4\nCX 2 0\nCX 4 0\nT 0\nCX 4 0\nCX 2 0\nCX 1 0\nT_DAG 0\nCX 1 0\nT_DAG 3\nCX 2 0\nCX 4 0\nT_DAG 0\nCX 4 0\nCX 2 0\nT_DAG 0\nH 4\nS_DAG 1\nS 4\nCX 4 3\nCX 0 4\nCZ 1 2\nCX 4 2\nT_DAG 3\n",
+  "clifford_paulis": [
+   [
+    "Y3",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_28713",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nCX 2 1\nT_DAG 1\nCX 2 1\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nH 1\nCZ 1 2\nCX 0 2\nH 0\nS_DAG 2\nH 2\nCZ 1 0\nCX 1 0\nSQRT_X 1\nH_YZ 0\nH_YZ 0\nS_DAG 2\nS 1\nH_YZ 0\nT 0\nH_YZ 0\n",
+  "clifford_paulis": [
+   [
+    "X0",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_38300",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 2 0\nT_DAG 0\nCX 2 0\nS 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCZ 2 0\nH 1\nCX 1 0\nS_DAG 1\nCX 2 0\nT_DAG 0\nCX 2 0\n",
+  "clifford_paulis": [
+   [
+    "Y2",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_43587",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nT_DAG 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nS 1\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nH 2\nH_YZ 1\nH 0\nCX 2 1\nS_DAG 2\nH_YZ 1\nSQRT_X 2\nH 0\nCX 2 0\nH 1\nCX 1 2\nCX 2 1\nT 1\nCX 2 1\n",
+  "clifford_paulis": [
+   [
+    "X2",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_44183",
+  "kind": "undo",
+  "text": "H 1\nH 3\nH 4\nCX 1 0\nCX 2 0\nCX 3 0\nT_DAG 0\nCX 3 0\nCX 2 0\nCX 1 0\nCX 2 1\nT_DAG 1\nCX 2 1\nCX 0 1\nCX 2 1\nCX 3 1\nT 1\nCX 3 1\nCX 2 1\nCX 0 1\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 4 2\nCZ 2 4\nCX 4 2\nH_YZ 3\nCZ 1 3\nSQRT_X 2\nSQRT_X 1\nCZ 0 4\nCX 1 3\nSQRT_X 2\nH 3\nCX 3 2\nT_DAG 2\nCX 3 2\nH 3\n",
+  "clifford_paulis": [
+   [
+    "Z3",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_48825",
+  "kind": "undo",
+  "text": "H 0\nH 1\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nT_DAG 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nS 0\nCX 2 0\nCX 1 0\nT_DAG 0\nCX 2 0\nT 0\nCX 2 0\nCZ 1 2\nS_DAG 2\nSQRT_X 2\nH 1\nCX 1 0\nH 0\nCX 2 1\nCZ 1 2\nH_YZ 1\nCZ 2 1\nCZ 2 0\nH_YZ 0\nH_YZ 2\nCX 2 0\nT_DAG 0\nCX 2 0\nH_YZ 2\nH_YZ 0\n",
+  "clifford_paulis": [
+   [
+    "Z0",
+    -1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_51478",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nCX 1 0\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nCX 1 0\nCX 2 0\nT 0\nCX 2 0\nCX 1 0\nT 0\nCX 0 1\nS 2\nCX 1 0\nH 0\nH_YZ 0\nCX 2 0\nCX 2 1\nH 1\nCX 0 2\nCX 2 0\nCZ 1 2\nH 1\nH_YZ 1\nCX 1 0\nT_DAG 0\nCX 1 0\nH_YZ 1\n",
+  "clifford_paulis": [
+   [
+    "X1",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "undo_g2_56303",
+  "kind": "undo",
+  "text": "H 0\nH 1\nH 2\nT 1\nT 1\nCX 2 0\nT_DAG 0\nCX 2 0\nCX 1 0\nT_DAG 0\nCX 1 0\nH_YZ 1\nCX 2 0\nSQRT_X 1\nH_YZ 2\nS_DAG 1\nSQRT_X 1\nCX 2 1\nT_DAG 0\nCX 1 0\nT_DAG 0\nCX 1 0\n",
+  "clifford_paulis": [
+   [
+    "Y0*X1",
+    1
+   ],
+   [
+    "Z0*Y1",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "base_g1_1183",
+  "kind": "base",
+  "text": "T 1\nS 0\nT 2\nT 2\nH_YZ 2\nT 2\nCX 1 2\nT_DAG 0\nT 1\nCZ 1 2\nCS_DAG 2 1\n",
+  "qubits": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_1008",
+  "kind": "base",
+  "text": "CZ 0 1\nCX 3 0\nT 1\nT_DAG 1\nCZ 1 2\nS 1\nS_DAG 3\nCX 2 1\nH_YZ 1\nT 1\nS_DAG 1\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_4592",
+  "kind": "base",
+  "text": "T_DAG 2\nSQRT_X 0\nCZ 0 1\nT_DAG 0\nT_DAG 2\nCZ 1 0\nH 2\nCZ 0 1\nCX 1 0\nT_DAG 2\n",
+  "qubits": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "base_g1_702",
+  "kind": "base",
+  "text": "T 2\nS_DAG 0\nSQRT_X 1\nCZ 0 2\nT_DAG 0\nCS 0 2\nT_DAG 1\nH_YZ 1\nT_DAG 1\nT_DAG 1\n",
+  "qubits": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_5085",
+  "kind": "base",
+  "text": "T 2\nT_DAG 2\nCX 0 3\nH 4\nCX 1 4\nSQRT_X 2\nCX 1 3\nCX 3 1\nT 4\nCS 3 2\nSQRT_X 3\nH_YZ 0\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "name": "base_g1_5938",
+  "kind": "base",
+  "text": "CZ 3 0\nH 0\nT 0\nH 1\nCX 3 2\nCX 1 3\nCS 3 1\nCS_DAG 1 3\nH_YZ 3\nCS_DAG 1 3\nS_DAG 3\nCX 3 1\nT 2\n",
+  "qubits": [
+   1,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_1610",
+  "kind": "base",
+  "text": "H 0\nCZ 2 0\nSQRT_X 1\nT_DAG 0\nCS_DAG 0 2\nSQRT_X 0\nCS_DAG 1 0\nT_DAG 2\nS 1\nCZ 0 2\nCS 1 0\nCZ 1 0\n",
+  "qubits": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "base_g1_4837",
+  "kind": "base",
+  "text": "CX 1 0\nCS_DAG 2 0\nCS 0 2\nS_DAG 2\nCZ 1 0\nT 0\nCX 1 2\nSQRT_X 2\nCX 1 2\nT_DAG 1\nS 2\nT_DAG 2\nCZ 1 0\nCZ 0 2\n",
+  "qubits": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_2468",
+  "kind": "base",
+  "text": "S 3\nCS_DAG 3 2\nCS_DAG 2 3\nS 2\nS_DAG 0\nH_YZ 1\nT_DAG 1\nH 3\nCX 1 3\nCZ 0 1\nS 0\nS_DAG 1\nT 2\nCZ 3 0\nT_DAG 3\n",
+  "qubits": [
+   0,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_231",
+  "kind": "base",
+  "text": "CX 2 0\nSQRT_X 1\nCZ 0 1\nT 2\nT 2\nS 0\nCZ 1 2\nCX 0 1\nT 1\nCZ 2 0\nS_DAG 1\nSQRT_X 2\nCX 1 2\nCS 2 1\nCZ 1 2\nS 2\nS 1\n",
+  "qubits": [
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_1888",
+  "kind": "base",
+  "text": "CX 0 3\nSQRT_X 2\nCS 3 1\nCZ 0 3\nH_YZ 0\nH 0\nH 0\nCZ 1 3\nSQRT_X 3\nSQRT_X 3\nCS 1 3\nH_YZ 1\nT 0\nS 1\nCZ 2 3\nT_DAG 3\nT_DAG 1\n",
+  "qubits": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_3842",
+  "kind": "base",
+  "text": "CZ 1 0\nCZ 0 2\nT 2\nCS 0 1\nCS_DAG 1 0\nS_DAG 1\nCZ 0 2\nSQRT_X 2\nH_YZ 2\nR 3\nH 3\nCZ 3 1\nH 3\nM 3\nCX rec[-1] 2\nH_YZ 0\nT_DAG 1\nT 0\n",
+  "qubits": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "base_g1_3846",
+  "kind": "base",
+  "text": "SQRT_X 1\nCCZ 1 2 0\nCX 0 1\nT 1\nCX 1 0\nCZ 0 2\nCZ 0 1\nCCZ 1 2 0\nS_DAG 0\nSQRT_X 0\nSQRT_X 1\nH 0\nH_YZ 2\nCZ 0 2\nT 1\nSQRT_X 0\nT 1\n",
+  "qubits": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_1777",
+  "kind": "base",
+  "text": "CX 2 0\nT_DAG 2\nCS 2 1\nH_YZ 2\nCX 1 4\nCZ 0 2\nH_YZ 2\nCZ 2 0\nT_DAG 1\nCZ 3 0\nCZ 0 3\nH 3\nS 2\nCX 1 2\nH 3\nS 0\nH_YZ 1\nH_YZ 2\nH 0\nT 1\n",
+  "qubits": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "name": "base_g1_3248",
+  "kind": "base",
+  "text": "T_DAG 1\nT_DAG 1\nS_DAG 0\nR 3\nH 3\nCZ 3 1\nH 3\nM 3\nCX rec[-1] 0\nH_YZ 1\nT_DAG 1\nCX 2 0\nCZ 0 1\nH_YZ 2\nS_DAG 2\nS 2\nCS_DAG 0 2\nH_YZ 2\n",
+  "qubits": [
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_3514",
+  "kind": "base",
+  "text": "CZ 0 2\nS_DAG 3\nS 2\nT 2\nCZ 2 1\nCX 1 0\nT_DAG 2\nS 0\nT 1\nCZ 3 2\nS_DAG 3\nT_DAG 0\nH 0\nCZ 2 3\nH_YZ 2\nS_DAG 0\nS 3\nT 3\nS_DAG 2\nT 3\nT_DAG 2\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_2199",
+  "kind": "base",
+  "text": "H 3\nT_DAG 5\nCZ 5 0\nH 1\nCS 2 5\nT_DAG 0\nH_YZ 3\nH 2\nS_DAG 3\nT 0\nCS_DAG 0 4\nH 3\nS_DAG 2\nCX 4 0\nT 2\nH 3\nT 2\nS_DAG 5\nSQRT_X 0\nT_DAG 3\nS 3\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "name": "base_g1_2782",
+  "kind": "base",
+  "text": "S_DAG 2\nCX 0 1\nT 0\nT_DAG 0\nH_YZ 2\nSQRT_X 2\nCZ 0 1\nCS 1 2\nCZ 1 0\nH 0\nT_DAG 2\nCS 1 0\nCS_DAG 0 2\nT 2\nCX 0 2\nCZ 1 0\nCX 0 1\nH_YZ 0\nT_DAG 2\nS_DAG 0\n",
+  "qubits": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_2433",
+  "kind": "base",
+  "text": "CX 2 5\nH_YZ 4\nH 3\nT_DAG 0\nT 3\nT 5\nH_YZ 2\nH_YZ 5\nS_DAG 0\nS 4\nCS 0 5\nCS_DAG 0 5\nT_DAG 2\nCX 1 0\nH 3\nCX 1 2\nS_DAG 1\nS_DAG 1\nS 5\nCZ 4 3\nCZ 3 0\nCS 0 4\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "name": "base_g1_2335",
+  "kind": "base",
+  "text": "CCZ 0 2 1\nS 2\nT 1\nT_DAG 1\nCZ 1 2\nCCZ 1 0 2\nH_YZ 2\nH 2\nH 0\nCZ 2 1\nS_DAG 1\nCX 2 0\nCZ 2 0\nCS_DAG 2 0\nCX 0 1\nCS 2 0\nCZ 1 0\nCZ 2 1\nH_YZ 0\nT_DAG 2\nT_DAG 1\n",
+  "qubits": [
+   2
+  ]
+ },
+ {
+  "name": "base_g1_42",
+  "kind": "base",
+  "text": "S_DAG 2\nCZ 0 2\nCX 1 2\nS_DAG 1\nCZ 2 1\nS_DAG 0\nSQRT_X 0\nCZ 1 0\nH 2\nCX 1 2\nS_DAG 0\nCS 2 0\nH 1\nT_DAG 1\nCS_DAG 0 2\nH_YZ 2\nCX 1 2\nCX 1 0\nCS_DAG 2 0\nS_DAG 1\nT 2\n",
+  "qubits": [
+   0,
+   2
+  ]
+ },
+ {
+  "name": "base_g1_5123",
+  "kind": "base",
+  "text": "S_DAG 1\nCS_DAG 1 2\nCCZ 0 1 2\nT_DAG 0\nT 0\nH_YZ 1\nH_YZ 3\nT 0\nT 3\nT_DAG 1\nT_DAG 3\nCZ 0 1\nCZ 1 3\nT_DAG 3\nT 0\nCCZ 2 0 3\nS_DAG 3\nCX 2 0\nT_DAG 2\nT_DAG 2\nT_DAG 1\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "name": "base_g1_5177",
+  "kind": "base",
+  "text": "CS_DAG 5 4\nR 6\nH 6\nCZ 6 4\nH 6\nM 6\nCZ rec[-1] 0\nT 3\nH_YZ 0\nCS 4 5\nSQRT_X 5\nT 4\nT_DAG 5\nCS 1 3\nCX 3 4\nS_DAG 5\nR 6\nH 6\nCZ 6 3\nH 6\nM 6\nCX rec[-1] 0\nT 0\nT 2\nH 3\n",
+  "qubits": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "name": "base_g1_3330",
+  "kind": "base",
+  "text": "T_DAG 3\nH_YZ 2\nCS_DAG 3 5\nT 2\nT_DAG 2\nH 3\nCZ 4 5\nT_DAG 5\nSQRT_X 5\nCX 2 4\nH_YZ 2\nCS 4 2\nT_DAG 1\nSQRT_X 2\nH_YZ 5\nCX 0 4\nCS 0 1\nSQRT_X 1\nT_DAG 5\nCX 2 4\nSQRT_X 3\n",
+  "qubits": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+]

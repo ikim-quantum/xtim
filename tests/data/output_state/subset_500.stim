@@ -1,0 +1,27 @@
+S_DAG 4
+S_DAG 4
+CX 3 4
+SQRT_X 2
+SQRT_X 0
+SQRT_X 4
+S_DAG 0
+CZ 4 2
+CS 4 0
+CCZ 2 4 3
+CX 4 2
+CZ 0 2
+CZ 1 4
+S_DAG 0
+S_DAG 3
+CZ 1 2
+R 5 6
+H 5
+CX 5 6
+CX 0 5
+H 0
+M 0 5
+CX rec[-1] 6
+CZ rec[-2] 6
+SWAP 0 6
+R 5 6
+# OUT 3 4
