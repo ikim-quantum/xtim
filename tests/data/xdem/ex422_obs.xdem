@@ -1,0 +1,12 @@
+xdem 1 detectors 3 observables 2 gauge 3 hidden 2 tc 3
+axis Q0 img D0 D1 D2 gauge g0
+axis Q1 img D1 D2 gauge g1
+axis Q2 img D0 D1 D2 L0 L1 gauge g2
+axis Q3 img D1 D2 L0 L1 gauge g0 g1 g2
+axis Q4 sign - img D0 D1 D2 L0 L1 gauge g2 hidden h0
+axis Q5 sign - img D1 D2 L0 L1 gauge g0 g1 g2 hidden h0
+axis Q6 sign - img D0 D1 D2 gauge g0 hidden h1
+axis Q7 sign - img D1 D2 gauge g1 hidden h1
+error(0.001) D0 D1 L1 x Q2 Q3 rot -Q2 +Q3
+error(0.001) D2 L0 x Q2 Q3 rot -Q2 +Q3
+error(0.001) D0 D1 D2 L0 L1

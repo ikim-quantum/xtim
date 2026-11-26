@@ -1,0 +1,4 @@
+xdem 1 detectors 1 observables 1 gauge 2 hidden 0 tc 1
+axis Q0 img D0 L0 gauge g0
+axis Q1 img D0 gauge g1
+error(0.3) rot +Q0 +Q1

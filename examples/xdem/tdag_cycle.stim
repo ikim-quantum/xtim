@@ -1,0 +1,12 @@
+# a single qubit through T, T_DAG, T, T_DAG with X noise between; read out in X
+RX 0
+X_ERROR(0.2) 0
+T 0
+X_ERROR(0.1) 0
+T_DAG 0
+X_ERROR(0.15) 0
+T 0
+X_ERROR(0.12) 0
+T_DAG 0
+MX 0
+DETECTOR rec[-1]

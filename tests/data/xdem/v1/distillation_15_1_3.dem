@@ -1,0 +1,47 @@
+shift_detectors[dc:v1;D=4;L=0;G=15;A=15;r=5] 0
+shift_detectors[dc:G0=T;v1=+A0] 0
+shift_detectors[dc:G1=T;v1=+A1] 0
+shift_detectors[dc:G2=T;v1=+A2] 0
+shift_detectors[dc:G3=T;v1=+A3] 0
+shift_detectors[dc:G4=T;v1=+A4] 0
+shift_detectors[dc:G5=T;v1=+A5] 0
+shift_detectors[dc:G6=T;v1=+A6] 0
+shift_detectors[dc:G7=T;v1=+A7] 0
+shift_detectors[dc:G8=T;v1=+A8] 0
+shift_detectors[dc:G9=T;v1=+A9] 0
+shift_detectors[dc:G10=T;v1=+A10] 0
+shift_detectors[dc:G11=T;v1=+A11] 0
+shift_detectors[dc:G12=T;v1=+A12] 0
+shift_detectors[dc:G13=T;v1=+A13] 0
+shift_detectors[dc:G14=T;v1=+A14] 0
+shift_detectors[dc:A0;img=D0;k=2;b=0] 0
+shift_detectors[dc:A1;img=D1;k=4;b=0] 0
+shift_detectors[dc:A2;img=D0,D1;k=7;b=0] 0
+shift_detectors[dc:A3;img=D2;k=8;b=0] 0
+shift_detectors[dc:A4;img=D0,D2;k=b;b=0] 0
+shift_detectors[dc:A5;img=D1,D2;k=d;b=0] 0
+shift_detectors[dc:A6;img=D0,D1,D2;k=e;b=0] 0
+shift_detectors[dc:A7;img=D3;k=10;b=0] 0
+shift_detectors[dc:A8;img=D0,D3;k=13;b=0] 0
+shift_detectors[dc:A9;img=D1,D3;k=15;b=0] 0
+shift_detectors[dc:A10;img=D0,D1,D3;k=16;b=0] 0
+shift_detectors[dc:A11;img=D2,D3;k=19;b=0] 0
+shift_detectors[dc:A12;img=D0,D2,D3;k=1a;b=0] 0
+shift_detectors[dc:A13;img=D1,D2,D3;k=1c;b=0] 0
+shift_detectors[dc:A14;img=D0,D1,D2,D3;k=1f;b=0] 0
+error(0.001) D0
+error(0.001) D0 D1
+error(0.001) D0 D1 D2
+error(0.001) D0 D1 D2 D3
+error(0.001) D0 D1 D3
+error(0.001) D0 D2
+error(0.001) D0 D2 D3
+error(0.001) D0 D3
+error(0.001) D1
+error(0.001) D1 D2
+error(0.001) D1 D2 D3
+error(0.001) D1 D3
+error(0.001) D2
+error(0.001) D2 D3
+error(0.001) D3
+shift_detectors(6463, 1, 31, 0, 3946060) 0

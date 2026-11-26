@@ -1,0 +1,21 @@
+H 2
+H 1
+H 3
+CCZ 3 2 1
+CCZ 3 2 0
+CCZ 3 2 1
+CCZ 2 3 1
+S 3
+H 2
+CX 2 1
+R 4 5
+H 4
+CX 4 5
+CX 2 4
+H 2
+M 2 4
+CX rec[-1] 5
+CZ rec[-2] 5
+SWAP 2 5
+R 4 5
+# OUT 0 1 3
